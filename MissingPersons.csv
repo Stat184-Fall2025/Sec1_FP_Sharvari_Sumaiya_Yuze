@@ -1,0 +1,960 @@
+﻿Case Number,DLC,Legal Last Name,Legal First Name,Missing Age,City,County,State,Biological Sex,Race / Ethnicity,Date Modified
+MP2620,8/8/04,Vega,Antonio,73 Years,Philadelphia,Adams,PA,Male,"White / Caucasian, Hispanic / Latino",8/12/20
+MP2905,6/27/97,Fawcett,Michele,35 Years,Donegal,Somerset,PA,Female,White / Caucasian,4/1/20
+MP2508,12/12/71,Lande,Elizabeth,21 Years,Philadelphia,Philadelphia,PA,Female,White / Caucasian,4/27/21
+MP2477,9/27/74,Jones,Katherine,29 Years,Clearfield,Clearfield,PA,Female,White / Caucasian,9/28/23
+MP2659,3/18/65,Shea,Kathleen,6 Years,Tyrone,Blair,PA,Female,White / Caucasian,4/29/24
+MP2509,6/24/75,Thorne,Edna,15 Years,Philadelphia,Philadelphia,PA,Female,White / Caucasian,2/21/23
+MP1561,9/8/04,Morales,Tayna,3 Years,Reading,Berks,PA,Female,"White / Caucasian, Hispanic / Latino",4/3/20
+MP2496,12/19/78,Coyle,Andrea,30 Years,Altoona,Blair,PA,Female,White / Caucasian,8/7/24
+MP2503,9/2/83,Manley,Myra,19 Years,Philadelphia,Philadelphia,PA,Female,White / Caucasian,2/13/22
+MP2908,6/7/84,Mackerley,Louis,7 Years,Allentown,Lehigh,PA,Male,White / Caucasian,3/26/20
+MP2945,3/5/05,Westover,Ronald,63 Years,Westover,Clearfield,PA,Male,White / Caucasian,9/28/23
+MP808,2/11/04,Thomas,Phylicia,22 Years,Sweet Valley,Luzerne,PA,Female,White / Caucasian,8/8/22
+MP784,11/11/85,Carbaugh,Emerson,64 Years,Robertsdale,Huntingdon,PA,Male,White / Caucasian,4/19/22
+MP1737,3/1/79,Flickinger,Nellie,29 Years,Erie,Erie,PA,Female,White / Caucasian,7/11/23
+MP806,2/19/05,Imbo,Danielle,34 Years,Philadelphia,Philadelphia,PA,Female,White / Caucasian,1/6/25
+MP847,4/11/06,Jackson,Lonnett,46 Years,Pittsburgh,Allegheny,PA,Female,Black / African American,4/3/20
+MP2983,6/22/07,Benjamin,Michelle,35 Years,Saint Marys,Elk,PA,Female,White / Caucasian,9/18/25
+MP4608,9/19/58,Triska,Rebecca,15 Years,Ambridge,Beaver,PA,Female,White / Caucasian,3/23/20
+MP11745,2/4/11,Miller,Maria,34 Years,Towanda,Bradford,PA,Female,Asian,4/6/20
+MP12519,9/26/11,Peterson,Jamie,30 Years,Pittsburgh,Allegheny,PA,Female,White / Caucasian,1/12/24
+MP6968,12/3/99,Mohn,Kathleen,48 Years,King of Prussia,Montgomery,PA,Female,White / Caucasian,1/6/21
+MP7046,5/5/01,Scott,Diane,39 Years,Harrisburg,Dauphin,PA,Female,Black / African American,6/24/25
+MP7220,1/1/88,Lango,John,17 Years,Pottsville,Schuylkill,PA,Male,White / Caucasian,11/11/21
+MP7238,12/21/94,Allison,Robert,42 Years,Waynesburg,Greene,PA,Male,White / Caucasian,4/1/20
+MP6764,9/25/95,Vanderhorst,Ke'Shaun,2 Years,Philadelphia,Philadelphia,PA,Male,Black / African American,4/1/20
+MP7236,2/26/94,Robinson,William,50 Years,Philadelphia,Philadelphia,PA,Male,Black / African American,9/8/20
+MP14759,9/24/99,Procopio,Maria,34 Years,Philadelphia,Philadelphia,PA,Female,White / Caucasian,11/17/20
+MP14787,1/31/06,Smatlak,Donald,25 Years,North Versailles,Allegheny,PA,Male,White / Caucasian,4/3/20
+MP8249,2/20/03,Scott,Anita,58 Years,Upper Providence Township,Montgomery,PA,Female,White / Caucasian,4/2/20
+MP8588,4/23/85,Green,Christine,16 Years,Philadelphia,Philadelphia,PA,Female,Black / African American,10/23/23
+MP10083,9/6/06,Leonetti,Kristin,23 Years,Glenolden,Delaware,PA,Female,White / Caucasian,8/12/20
+MP9312,10/28/09,Ariza,Joel,24 Years,Chester,Chester,PA,Male,White / Caucasian,4/7/24
+MP8897,9/29/73,Hopler,Sandra,18 Years,Scranton,Lackawanna,PA,Female,White / Caucasian,12/5/24
+MP19148,1/1/90,Conrad,Mary,51 Years,Plymouth,Luzerne,PA,Female,White / Caucasian,11/18/21
+MP19363,11/28/83,Stalker,Doris,54 Years,Emlenton,Venango,PA,Female,White / Caucasian,2/4/22
+MP19866,1/27/13,Short,Jessi,25 Years,Shenango Township,Lawrence,PA,Female,White / Caucasian,9/15/20
+MP19356,8/4/96,Witherspoon,Adrienne,41 Years,Philadelphia,Philadelphia,PA,Female,Black / African American,4/27/21
+MP19197,2/12/08,Show Jr.,Kenneth,33 Years,Oil City,Venango,PA,Male,White / Caucasian,4/6/20
+MP19122,3/9/81,Shafer,Donald,15 Years,Dickson City,Lackawanna,PA,Male,White / Caucasian,3/27/23
+MP20278,11/13/12,Lam,Tik,71 Years,Philadelphia,Philadelphia,PA,Male,Asian,4/27/21
+MP20481,4/19/13,Rodriguez,Melissa,31 Years,Collingdale,Delaware,PA,Female,"White / Caucasian, Hispanic / Latino",8/1/24
+MP22231,5/22/81,Kelly,Kathleen,12 Years,Springdale,Allegheny,PA,Female,White / Caucasian,11/17/21
+MP23214,6/6/13,Copper,Albert,28 Years,Avonmore,Westmoreland,PA,Male,White / Caucasian,4/7/20
+MP22270,1/21/77,Brosius,Randall,22 Years,Valley View,Dauphin,PA,Male,White / Caucasian,11/2/25
+MP26764,1/2/14,Boone,Shane,38 Years,Somerset,Somerset,PA,Male,White / Caucasian,4/7/20
+MP35306,10/14/49,Forstein,Dorothy,40 Years,Philadelphia,Philadelphia,PA,Female,White / Caucasian,3/23/20
+MP42898,6/6/00,Taras,Tanya,35 Years,Palmyra,Lebanon,PA,Female,White / Caucasian,7/2/25
+MP42474,1/21/92,Spernak,Joseph,38 Years,Turtle Creek,Allegheny,PA,Male,White / Caucasian,12/10/19
+MP42517,1/8/14,Leddy,Kaitlyn,22 Years,Ardmore,Montgomery,PA,Female,White / Caucasian,8/1/24
+MP37197,10/13/03,Rodko,Bernadette,44 Years,Hanover Township,Luzerne,PA,Female,White / Caucasian,1/12/24
+MP37665,11/19/16,Toney,William,20 Years,Sharon Hill,Delaware,PA,Male,Black / African American,2/19/25
+MP39885,4/3/14,Ke,Horng-Chang,49 Years,University Park,Centre,PA,Male,Asian,4/7/20
+MP50862,11/1/01,Alvarez-Marinez,Valentin,31 Years,Carbondale,Lackawanna,PA,Male,Hispanic / Latino,4/2/20
+MP43040,5/12/04,Moyer,Greg,39 Years,Feasterville,Butler,PA,Male,White / Caucasian,1/12/24
+MP42402,3/24/87,Muller,William,45 Years,Doylestown,Bucks,PA,Male,White / Caucasian,7/2/21
+MP43165,7/18/17,Pery Jr.,Elias,31 Years,Philadelphia,Philadelphia,PA,Male,White / Caucasian,4/7/24
+MP43039,4/8/04,Jones,Sheila,47 Years,Philadelphia,Philadelphia,PA,Female,Black / African American,1/12/24
+MP50250,6/7/71,Lawton,Walter,64 Years,White Haven,Luzerne,PA,Male,White / Caucasian,3/23/20
+MP40734,3/31/17,Mosser,Benjamin,33 Years,Shiremanstown,Cumberland,PA,Male,White / Caucasian,10/8/21
+MP32151,1/1/73,Roginski,Rosemarie,21 Years,Ambridge,Beaver,PA,Female,White / Caucasian,10/22/21
+MP33621,2/6/14,Horn,John,43 Years,Harrison Twp,Allegheny,PA,Male,White / Caucasian,6/13/24
+MP33181,1/1/05,Brisbois,Nina,29 Years,Coatesville,Chester,PA,Female,White / Caucasian,1/12/24
+MP32958,9/12/13,Malinosky,Joseph,62 Years,Morrisville,Bucks,PA,Male,White / Caucasian,1/12/24
+MP55693,11/16/18,Goldsworthy,Jessica,24 Years,Sutterville,Westmoreland,PA,Female,White / Caucasian,7/19/21
+MP56320,12/27/08,Esbensen,Thomas,41 Years,Quakertown,Bucks,PA,Male,White / Caucasian,4/6/20
+MP57580,4/17/19,Huber,Michael,40 Years,Philadelphia,Philadelphia,PA,Male,White / Caucasian,4/8/20
+MP125424,6/19/24,Hunt,Keith,33 Years,Philadelphia,Philadelphia,PA,Male,White / Caucasian,7/10/24
+MP60491,4/1/14,Simms,Wilfred,77 Years,Upper Darby,Delaware,PA,Male,Black / African American,1/23/21
+MP55661,10/1/06,Murincsak,Mark,44 Years,New Castle,Lawrence,PA,Male,White / Caucasian,12/10/19
+MP64869,6/7/19,Cahill,Daniel,55 Years,Huntingdon Valley,Montgomery,PA,Male,White / Caucasian,8/5/25
+MP60254,1/23/17,Snyder,Herbert,72 Years,Philadelphia,Philadelphia,PA,Male,Black / African American,4/7/20
+MP63982,12/30/16,Green,Timothy,60 Years,North East,Erie,PA,Male,White / Caucasian,10/22/20
+MP63972,12/30/19,Turner,Tonee,22 Years,Pittsburgh,Allegheny,PA,Female,"Black / African American, White / Caucasian",1/14/21
+MP59784,2/4/19,Santana,Jacqueline,16 Years,Philadelphia,Philadelphia,PA,Female,Hispanic / Latino,1/7/20
+MP57818,9/8/16,Long,Chaloe,50 Years,Philadelphia,Philadelphia,PA,Female,Black / African American,5/24/24
+MP58999,4/27/19,Muniz,Fernando,40 Years,Philadelphia,Philadelphia,PA,Male,Hispanic / Latino,1/7/20
+MP67752,2/1/20,Zamichieli,James,65 Years,Philadelphia,Philadelphia,PA,Male,Black / African American,4/2/20
+MP76013,1/1/91,Davis,Lisa,26 Years,Pittsburgh,Allegheny,PA,Female,"White / Caucasian, Black / African American",9/23/25
+MP82170,12/9/20,Christensen,Jesse,31 Years,Philadelphia,Philadelphia,PA,Male,White / Caucasian,9/26/25
+MP71084,6/16/20,Sharper,Leatha,85 Years,Philadelphia,Philadelphia,PA,Female,Black / African American,6/24/20
+MP85517,7/24/15,Klein,Harry,50 Years,Scranton,Lackawanna,PA,Male,White / Caucasian,1/10/25
+MP91020,12/2/21,Robbins,Charmaine,20 Years,Philadelphia,Philadelphia,PA,Female,Black / African American,5/5/22
+MP87626,11/9/21,Anderson,Dermont,50 Years,Uniontown,Greene,PA,Male,Black / African American,1/12/22
+MP85490,8/24/17,Lieberman,Sandra,57 Years,Norristown,Montgomery,PA,Female,White / Caucasian,4/7/23
+MP93326,6/22/22,Grimes,Allen,16 Years,Easton,Northampton,PA,Male,Black / African American,10/15/25
+MP119279,3/23/24,Neal,Eliana,< 1 Year,Warminster,Bucks,PA,Female,Black / African American,4/3/24
+MP95109,8/14/22,Daniel,Debra,67 Years,Meadville,Crawford,PA,Female,White / Caucasian,5/13/24
+MP96859,9/20/20,Pride,Marshall,66 Years,Philadelphia,Philadelphia,PA,Male,Black / African American,10/27/25
+MP129956,7/19/19,Fusaro,Nicole,27 Years,Philadelphia,Philadelphia,PA,Female,White / Caucasian,3/26/25
+MP109940,9/6/23,Redd,Dijone,30 Years,Erie,Erie,PA,Male,Black / African American,8/20/24
+MP135190,8/2/24,Steele,Lauren,35 Years,Carlisle,Cumberland,PA,Female,White / Caucasian,3/20/25
+MP131373,10/11/24,Mossman,Mason,17 Years,Nazareth,Northampton,PA,Male,White / Caucasian,10/15/24
+MP133523,5/28/24,Hamaker,Donald,43 Years,Girardville,Schuylkill,PA,Male,White / Caucasian,12/17/24
+MP150264,11/29/92,Grogan Jr.,Dale,6 Years,Washington,Washington,PA,Male,Black / African American,9/23/25
+MP150275,11/29/92,Grogan,Stephon,4 Years,Washington,Washington,PA,Male,Black / African American,9/23/25
+MP150297,8/28/25,Jenifer,Isiah,28 Years,Folcroft,Delaware,PA,Male,"Black / African American, Asian",9/25/25
+MP14760,3/13/98,Brown,Mamie,68 Years,Harrisburg,Dauphin,PA,Female,Black / African American,4/1/20
+MP40088,11/29/92,Grogan,Tina,25 Years,Washington,Washington,PA,Female,Black / African American,9/24/25
+MP785,5/16/86,Covington,Ernestine,33 Years,Philadelphia,Philadelphia,PA,Female,Black / African American,12/6/21
+MP803,7/19/03,Hatchell,Lisa,37 Years,Philadelphia,Philadelphia,PA,Female,Black / African American,1/12/24
+MP18113,9/28/90,Reichert,Rex,45 Years,Philadelphia,Philadelphia,PA,Male,White / Caucasian,3/31/20
+MP17800,7/29/12,Stouffer,Kortne,21 Years,Palmyra,Lebanon,PA,Female,White / Caucasian,3/21/25
+MP22753,11/22/13,Grim,Holly,41 Years,Wescosville,Lehigh,PA,Female,White / Caucasian,4/30/25
+MP19700,2/25/13,Kim,Hee,61 Years,East Stroudsburg,Monroe,PA,Male,Asian,4/19/22
+MP25246,2/18/84,McBride,Kelly,21 Years,Northampton,Northampton,PA,Female,White / Caucasian,6/13/23
+MP26989,5/27/14,Turton,Richard,57 Years,Pittsburgh,Allegheny,PA,Male,"White / Caucasian, Hispanic / Latino",9/14/21
+MP27862,11/20/84,Achey,Clarke,36 Years,Bath,Northampton,PA,Male,White / Caucasian,3/26/20
+MP30798,6/5/15,Smith,Jasmaine,22 Years,Farrell,Mercer,PA,Female,Black / African American,7/20/23
+MP763,5/25/00,Baker,Sandra,46 Years,Delaware Township,Mercer,PA,Female,White / Caucasian,10/30/24
+MP2497,11/5/81,McNatt-Chiappetta,Toni,14 Years,Clairton,Allegheny,PA,Female,White / Caucasian,9/5/25
+MP33051,12/4/14,Green,Lonnie,60 Years,Bellevue,Allegheny,PA,Male,Black / African American,4/7/20
+MP29605,4/8/13,Ali,Hamza,< 1 Year,Upper Darby,Delaware,PA,Male,Black / African American,4/7/20
+MP29938,10/16/86,Young,Agnes,43 Years,Long Branch,Washington,PA,Female,White / Caucasian,2/26/20
+MP2484,8/5/89,Kroh,Tracy,17 Years,Millersburg,Dauphin,PA,Female,White / Caucasian,6/27/23
+MP2903,2/18/97,Smith,Brenwanda,24 Years,Philadelphia,Philadelphia,PA,Female,Black / African American,8/2/24
+MP2902,2/27/91,Condon,Brenda,28 Years,Bellefonte,Centre,PA,Female,White / Caucasian,4/29/24
+MP2492,5/17/75,Eaton,Wendy,15 Years,Media,Delaware,PA,Female,White / Caucasian,3/10/22
+MP2487,1/6/91,Slaugenhoupt,Terry,28 Years,Pittsburgh,Allegheny,PA,Female,White / Caucasian,9/4/25
+MP2906,8/23/82,Luty,Shelley,19 Years,Upper Darby,Delaware,PA,Female,White / Caucasian,7/8/25
+MP2510,7/12/77,Iacovone,Cheryl Ann,17 Years,Secane,Delaware,PA,Female,White / Caucasian,5/25/22
+MP1982,4/15/05,Gricar,Ray,59 Years,Bellefonte,Centre,PA,Male,White / Caucasian,5/22/20
+MP2493,7/8/75,King,Tracy,14 Years,Littlestown,Adams,PA,Female,White / Caucasian,12/4/24
+MP848,7/14/03,Jeeter,Revell,59 Years,Harrisonville,Fulton,PA,Male,White / Caucasian,8/5/25
+MP7227,1/3/92,Armstrong,Andrew,43 Years,Oakland Township,Venango,PA,Male,White / Caucasian,2/28/22
+MP7211,5/27/83,Sireci,Joseph,63 Years,Philadelphia,Philadelphia,PA,Male,White / Caucasian,3/24/24
+MP5881,12/13/85,Briscoe,Allen,16 Years,Philadelphia,Philadelphia,PA,Male,Black / African American,1/22/24
+MP7205,1/21/80,Hart,Jennings,50 Years,Marienville,Forest,PA,Male,White / Caucasian,9/28/23
+MP6406,3/7/02,Mills,Stefanie,16 Years,Pittsburgh,Allegheny,PA,Female,Black / African American,4/2/25
+MP4610,10/23/92,Miller,Dawn,22 Years,Bellefonte,Centre,PA,Female,White / Caucasian,9/3/20
+MP7234,8/25/93,Fonder,Edward,80 Years,Springfield,Bucks,PA,Male,White / Caucasian,6/2/20
+MP7919,11/22/86,Porrin,Tamara,15 Years,DuBois,Clearfield,PA,Female,White / Caucasian,3/31/20
+MP7242,11/23/97,Perlish,Brian,30 Years,Philadelphia,Philadelphia,PA,Male,White / Caucasian,9/8/20
+MP764,6/7/05,Beltz,Charles,56 Years,Spring Creek Township,Elk,PA,Male,White / Caucasian,9/3/25
+MP8727,3/12/07,Hearn,Thomas,50 Years,Aldan,Delaware,PA,Male,White / Caucasian,4/6/20
+MP10757,1/16/08,"Krainak, Jr.",Joseph,58 Years,West Mifflin,Allegheny,PA,Male,White / Caucasian,4/6/20
+MP10665,6/21/96,Blaniar,Belinda,33 Years,Arnold,Westmoreland,PA,Female,White / Caucasian,8/12/20
+MP9302,12/23/98,Brooks,Edward,40 Years,Philadelphia,Philadelphia,PA,Male,Black / African American,4/27/21
+MP9151,9/15/81,Kemp,Ryan,30 Years,Germansville,Lehigh,PA,Male,White / Caucasian,4/20/20
+MP7222,7/3/88,Douglas,Barry,31 Years,Galeton,Potter,PA,Male,White / Caucasian,3/31/20
+MP6723,1/7/93,Thompson,Laura,15 Years,New Castle,Lawrence,PA,Female,White / Caucasian,3/31/20
+MP7040,10/26/73,Seelbaugh,Patricia,17 Years,Grove City,Mercer,PA,Female,White / Caucasian,3/24/20
+MP5496,8/22/01,Poland,Raymond,35 Years,Erie,Erie,PA,Male,White / Caucasian,9/19/25
+MP7208,10/31/80,Cruz,David,29 Years,Allentown,Lehigh,PA,Male,Hispanic / Latino,10/14/21
+MP11608,2/1/07,Arnold,Wayne,54 Years,Gilbert,Monroe,PA,Male,White / Caucasian,4/6/20
+MP11887,1/25/84,Burns,Jay,56 Years,Rochester,Beaver,PA,Male,White / Caucasian,3/26/20
+MP13614,5/28/82,Riggin,Anne,25 Years,Harrisburg,Dauphin,PA,Female,White / Caucasian,1/15/25
+MP13258,5/1/75,Fletcher,Charles,54 Years,Philadelphia,Philadelphia,PA,Male,Black / African American,4/27/21
+MP14290,6/12/85,Kelley,George,48 Years,Beech Creek,Clinton,PA,Male,White / Caucasian,8/12/24
+MP15037,3/13/12,Alvarado,Franchesca,22 Years,Philadelphia,Philadelphia,PA,Female,Hispanic / Latino,9/24/19
+MP14757,5/25/85,Snyder,Melvin,42 Years,Greencastle,Franklin,PA,Male,White / Caucasian,8/5/25
+MP13646,5/25/02,Sharp,Damien,22 Years,Warren,Warren,PA,Male,White / Caucasian,9/11/24
+MP34827,2/25/78,Hunsberger,Stephanie,23 Years,Northwales,Montgomery,PA,Female,White / Caucasian,1/12/24
+MP34828,2/25/78,Hunsberger,Edward,30 Years,Northwales,Montgomery,PA,Male,White / Caucasian,1/12/24
+MP36759,6/2/80,Brack,Elsie,50 Years,Pittsburgh,Allegheny,PA,Female,White / Caucasian,3/26/20
+MP37092,1/1/11,Hayden,Thomas,62 Years,Dover,York,PA,Male,White / Caucasian,4/6/20
+MP35752,11/2/68,Krupinski,Benjamin,62 Years,Conyngham Twp,Luzerne,PA,Male,White / Caucasian,4/9/24
+MP34558,9/11/06,Fowler,Inisha,7 Years,Pittsburgh,Allegheny,PA,Female,Black / African American,7/16/24
+MP42899,4/3/01,Ho,Meng,77 Years,Upper Darby,Delaware,PA,Male,Asian,12/10/19
+MP43018,7/16/03,Brennan,Trish,25 Years,Easton,Northampton,PA,Female,White / Caucasian,5/28/24
+MP38999,4/10/16,Mendez Erazo,Meylin,14 Years,Philadelphia,Philadelphia,PA,Female,Hispanic / Latino,9/24/19
+MP50865,5/13/88,"Bird, Jr.",Leroy,45 Years,Kinzers,Lancaster,PA,Male,White / Caucasian,4/16/25
+MP50374,10/11/15,Herran,Jose,56 Years,Foster Township,Luzerne,PA,Male,Hispanic / Latino,4/7/20
+MP42374,6/15/85,Bertone,Joseph,49 Years,McKeesport,Allegheny,PA,Male,White / Caucasian,1/12/24
+MP42380,12/9/76,Woods,Robert,29 Years,Ebensburg,Cambria,PA,Male,White / Caucasian,3/24/20
+MP42691,6/6/94,Stellfox,Lamar,80 Years,Phoenixville,Montgomery,PA,Male,White / Caucasian,4/1/20
+MP43149,4/7/18,Gross,Cassandra,51 Years,Latrobe,Westmoreland,PA,Female,White / Caucasian,4/7/20
+MP42782,6/9/76,Bartlebaugh,Eugene,22 Years,Scranton,Lackawanna,PA,Male,White / Caucasian,1/17/25
+MP42585,6/11/92,Kudlajev,Evan,41 Years,Springlfield,Delaware,PA,Male,White / Caucasian,3/31/20
+MP56779,4/4/18,Crowley,Everett,52 Years,Erie,Erie,PA,Male,White / Caucasian,10/14/21
+MP53884,11/15/18,Fanning,Travis,30 Years,Hazle Township,Luzerne,PA,Male,White / Caucasian,1/12/24
+MP42224,1/21/87,White,Sally,28 Years,Pittsburgh,Allegheny,PA,Female,White / Caucasian,9/15/20
+MP42804,8/25/93,Holder,Clinton,18 Years,Scranton,Lackawanna,PA,Male,Black / African American,4/27/23
+MP40945,4/1/69,Higgins,William,35 Years,McKeesport,Allegheny,PA,Male,White / Caucasian,4/6/23
+MP39261,7/16/17,Malchon,John,49 Years,Nesquehoning,Carbon,PA,Male,White / Caucasian,10/7/21
+MP39807,6/13/16,McHale,Amy,44 Years,Philadelphia,Philadelphia,PA,Female,White / Caucasian,2/8/24
+MP59782,1/5/19,Morales,Anastasia,31 Years,Philadelphia,Philadelphia,PA,Female,Hispanic / Latino,8/12/20
+MP57763,5/8/15,Rivadeneyra,Estefani,15 Years,Philadelphia,Philadelphia,PA,Female,"Hispanic / Latino, White / Caucasian",1/7/20
+MP56144,11/6/18,Francis,Rashan,42 Years,Scranton,Lackawanna,PA,Male,Black / African American,9/26/19
+MP61591,10/1/75,Davenport,Carola,22 Years,Philadelphia,Philadelphia,PA,Female,Black / African American,5/21/24
+MP60790,12/19/18,Vo,Phuong,44 Years,Philadelphia,Philadelphia,PA,Male,Asian,1/12/24
+MP65477,3/6/89,Washington,Melvin,34 Years,Philadelphia,Philadelphia,PA,Male,Black / African American,7/12/21
+MP64928,8/1/11,Nazaire,Marion,34 Years,Philadelphia,Philadelphia,PA,Female,Black / African American,4/27/21
+MP70359,1/10/59,Coleman,Marie,49 - 50 Years,Philadelphia,Philadelphia,PA,Female,Uncertain,5/12/25
+MP73198,11/20/18,Demianczyk,Katherine,25 Years,Philadelphia,Philadelphia,PA,Female,White / Caucasian,8/15/25
+MP70492,12/24/17,Hepner,Jonthan,56 Years,Erie,Erie,PA,Male,White / Caucasian,6/30/21
+MP71119,4/8/20,Schoener,Marcus,19 Years,Jeannette,Westmoreland,PA,Male,White / Caucasian,8/11/21
+MP77906,6/30/85,Shuglie,Marisa,10 Years,Somerset,Somerset,PA,Female,White / Caucasian,6/13/22
+MP81023,4/19/18,Kolodzieski,Walter,31 Years,Scranton,Lackawanna,PA,Male,White / Caucasian,8/5/25
+MP104579,3/9/23,McDonald,Matthew,29 Years,California,Washington,PA,Male,White / Caucasian,5/16/25
+MP87908,1/31/21,Krepto,John,61 Years,Russellton,Allegheny,PA,Male,"White / Caucasian, Asian",5/8/24
+MP94040,7/16/22,Caffas,Candice,34 Years,Meadville,Crawford,PA,Female,White / Caucasian,8/21/24
+MP99136,12/17/22,Black,Kadin,19 Years,East Prospect,York,PA,Male,Black / African American,7/25/25
+MP98864,6/1/22,Foell,Kathryn,43 Years,Philadelphia,Philadelphia,PA,Female,White / Caucasian,10/6/25
+MP98191,10/26/11,Kobeski,Bruce,54 Years,Jefferson Township,Lackawanna,PA,Male,White / Caucasian,2/28/25
+MP97129,10/10/22,Capaldi,Elizabeth,55 Years,Sellersville,Bucks,PA,Female,White / Caucasian,1/23/24
+MP119288,3/23/24,Neal,Daneishya,17 Years,Warminster,Bucks,PA,Female,Black / African American,4/3/24
+MP122961,7/7/18,Galette,Jason,35 Years,Conshohocken,Montgomery,PA,Male,White / Caucasian,5/30/24
+MP122688,5/10/24,Handzel,Daniel,38 Years,West Chester,Chester,PA,Male,White / Caucasian,5/28/24
+MP127522,8/10/24,Smink,Joseph,76 Years,West Hanover Township,Dauphin,PA,Male,White / Caucasian,2/13/25
+MP130490,9/19/24,Perry,Adam,20 Years,Philadelphia,Philadelphia,PA,Male,White / Caucasian,10/10/24
+MP127094,8/3/24,Juarez-Perez,Edy,17 Years,Toughkenamon,Chester,PA,Male,Hispanic / Latino,8/8/24
+MP137315,10/3/24,DURHAM JR.,EDWARD,34 Years,Philadelphia,Philadelphia,PA,Male,Black / African American,4/18/25
+MP128223,8/9/24,MURDOCK,David,65 Years,Knoxville,Tioga,PA,Male,White / Caucasian,5/2/25
+MP133295,9/30/24,Johnson-Bull,Miasia,16 Years,Dover,York,PA,Female,Black / African American,11/19/24
+MP137421,1/24/25,Gibson,Robert,17 Years,Washington,Washington,PA,Male,White / Caucasian,2/3/25
+MP148597,6/21/24,Furman,Shane,35 Years,Wysox,Bradford,PA,Male,White / Caucasian,8/4/25
+MP146995,5/21/25,Garrett,Ben,36 Years,Hanover,York,PA,Male,White / Caucasian,9/30/25
+MP151337,10/3/23,MORGAN JR,THOMAS,19 Years,Pittsburgh,Allegheny,PA,Male,White / Caucasian,11/27/25
+MP33270,10/24/84,Craig,Helen,24 Years,Williamsport,Lycoming,PA,Female,White / Caucasian,12/1/25
+MP864,5/3/03,King,Eulace,29 Years,Philadelphia,Philadelphia,PA,Male,Black / African American,1/12/24
+MP801,3/20/94,Green,Aaron,28 Years,Philadelphia,Philadelphia,PA,Male,Black / African American,7/13/20
+MP779,9/5/06,Brown-Bousetta,Devin,25 Years,Pittsburgh,Allegheny,PA,Female,"Black / African American, Hispanic / Latino",1/12/24
+MP2549,10/15/66,Tumolo,Anthony,14 Years,Philadelphia,Philadelphia,PA,Male,White / Caucasian,1/7/22
+MP2550,6/28/78,McCool,Michael,14 Years,Philadelphia,Philadelphia,PA,Male,White / Caucasian,1/7/22
+MP2491,4/26/87,Markovich,Alicia,15 Years,Blairsville,Indiana,PA,Female,White / Caucasian,6/3/22
+MP2499,12/16/82,Shumac,Barbara,29 Years,Venango Township,Erie,PA,Female,White / Caucasian,7/24/23
+MP2551,6/30/79,Keck,Robert,16 Years,Coopersburg,Lehigh,PA,Male,White / Caucasian,3/1/25
+MP7194,6/21/62,Maps,Edward,39 Years,Stroudsburg,Monroe,PA,Male,White / Caucasian,8/24/22
+MP5827,11/15/85,Barnwell,Jeanine,3 Years,Philadelphia,Philadelphia,PA,Female,Black / African American,7/18/22
+MP6425,8/1/90,Morris,Jerome,14 Years,Pittsburgh,Allegheny,PA,Male,Black / African American,3/31/20
+MP3997,3/12/07,Adams,Karen,54 Years,Independence Township,Beaver,PA,Female,White / Caucasian,8/31/20
+MP5133,9/27/75,Rhodes,Teresa,13 Years,Greensburg,Westmoreland,PA,Female,White / Caucasian,3/24/20
+MP2552,1/14/82,Dabkowski,Jon,11 Years,Tarentum,Allegheny,PA,Male,White / Caucasian,3/26/20
+MP2771,10/12/86,Edkin,Corey,2 Years,New Columbia,Union,PA,Male,White / Caucasian,3/31/20
+MP3088,11/1/01,Song,Hyun Jong,21 Years,State College,Centre,PA,Female,Asian,4/2/20
+MP6060,2/21/83,Fisher,Bryan,16 Years,Erie,Erie,PA,Male,White / Caucasian,8/20/24
+MP7235,9/24/93,Hart,David,31 Years,South Franklin Twp,Washington,PA,Male,White / Caucasian,9/30/21
+MP8725,10/8/05,McEntire,David,42 Years,Kunkletown,Monroe,PA,Male,White / Caucasian,4/3/20
+MP7687,9/12/85,Kirrane,Anne,55 Years,Pleasantville,Bedford,PA,Female,White / Caucasian,3/31/20
+MP8587,11/8/08,Santoso,Ellisya,4 Years,Marcus Hook,Philadelphia,PA,Female,Asian,4/27/21
+MP9328,4/14/09,Whaley,Murshin,18 Years,Philadelphia,Philadelphia,PA,Male,Black / African American,4/27/21
+MP7436,6/20/86,Miller,Diana,23 Years,Emporium,Cameron,PA,Female,White / Caucasian,3/2/25
+MP7237,3/20/94,Garcia,Anthony,21 Years,Philadelphia,Philadelphia,PA,Male,White / Caucasian,7/5/22
+MP10961,7/1/89,Miller,Barbara,30 Years,Sunbury,Northumberland,PA,Female,White / Caucasian,7/27/20
+MP10795,3/29/87,Martin,Cathleen,28 Years,Upper Darby,Delaware,PA,Female,White / Caucasian,3/31/20
+MP13263,12/13/06,Beatty,Tyrese,27 Years,Philadelphia,Philadelphia,PA,Male,Black / African American,1/12/24
+MP11614,12/9/07,Onyango,Edwina,34 Years,Lansford,Carbon,PA,Female,Black / African American,8/2/24
+MP11500,6/10/10,Pugner,Amy,40 Years,Washington,Washington,PA,Female,White / Caucasian,4/6/20
+MP13672,8/10/11,Coole,Frederick,44 Years,Tunkhannock,Wyoming,PA,Male,White / Caucasian,4/6/20
+MP10496,3/6/81,Korzon,Gloria,38 Years,Warrington,Bucks,PA,Female,White / Caucasian,3/26/20
+MP21020,11/3/81,Portela,Eduardo,20 Years,Harrisburg,Dauphin,PA,Male,Hispanic / Latino,6/13/25
+MP13901,1/13/87,Williams,Dorothy,23 Years,Philadelphia,Philadelphia,PA,Female,Black / African American,2/28/25
+MP19617,5/19/91,Arvanites,Deborah,29 Years,Conneaut lake,Crawford,PA,Female,White / Caucasian,8/10/20
+MP18022,7/18/06,Higgins,Jason,34 Years,Canonsburg,Washington,PA,Male,White / Caucasian,8/5/25
+MP18154,2/5/12,Harig,James,25 Years,Pottsville,Schuylkill,PA,Male,White / Caucasian,11/11/21
+MP19331,11/14/12,Savopolis,George,59 Years,Blakeslee,Monroe,PA,Male,White / Caucasian,4/7/20
+MP27414,12/30/03,Gregory,William,30 Years,Honey Brook,Chester,PA,Male,White / Caucasian,4/3/20
+MP27914,6/3/14,DeGuio,Amanda,24 Years,Drexel Hill,Delaware,PA,Female,White / Caucasian,4/7/20
+MP20515,3/15/75,DeHart,Eileen,73 Years,West Grove,Chester,PA,Female,White / Caucasian,3/24/20
+MP22804,11/10/13,Balogh,Dennis,59 Years,Johnstown,Cambria,PA,Male,White / Caucasian,4/7/20
+MP25233,4/25/14,Robinson,LaRessa,45 Years,Philadelphia,Philadelphia,PA,Female,"Black / African American, Hispanic / Latino",9/24/19
+MP23495,1/5/14,Qin,Qi,24 Years,Pittsburgh,Allegheny,PA,Female,Asian,8/27/20
+MP24975,11/30/00,Muhammad,Aesha,23 Years,Philadelphia,Philadelphia,PA,Female,Black / African American,4/10/25
+MP13465,10/31/11,Hardman,Cameron,31 Years,Sharon Hill,Delaware,PA,Male,Black / African American,4/7/20
+MP12034,5/14/11,Williams Jr.,Kenneth,29 Years,Aliquippa,Beaver,PA,Male,Black / African American,5/3/22
+MP12184,6/5/84,Bagenstose,Mary Ann,25 Years,West Willow,Lancaster,PA,Female,White / Caucasian,10/7/21
+MP17642,12/15/05,Santin,Nicolas,12 Years,Steelton,Dauphin,PA,Male,White / Caucasian,10/11/21
+MP28211,8/3/10,Drew,Chleise,44 Years,Philadelphia,Philadelphia,PA,Female,Black / African American,5/20/22
+MP32432,9/29/11,McSorley,William,49 Years,Quakertown,Bucks,PA,Male,White / Caucasian,5/31/22
+MP32956,1/9/16,Conway jr,Jesse,56 Years,Chester,Delaware,PA,Male,Black / African American,4/7/20
+MP29426,9/13/87,Kerstetter,Dale,50 Years,Bradford,McKean,PA,Male,White / Caucasian,12/14/21
+MP29917,6/2/14,Muskett,Seth,22 Years,Tuscarora,Schuylkill,PA,Male,White / Caucasian,1/12/24
+MP30211,3/28/12,Seiders,Rabihan,53 Years,Mechanicsburg,Cumberland,PA,Female,White / Caucasian,9/8/20
+MP39738,5/20/03,Bennis,John,50 Years,Philadelphia,Philadelphia,PA,Male,White / Caucasian,4/2/20
+MP38755,11/20/12,Mountain,Fawn,25 Years,Claysburg,Blair,PA,Female,White / Caucasian,4/29/24
+MP34381,8/21/04,Fisher,Nichole,37 Years,Norristown,Montgomery,PA,Male,Black / African American,4/3/20
+MP34562,9/11/06,Fowler,Ivon,7 Years,Pittsburgh,Allegheny,PA,Male,Black / African American,7/15/24
+MP42862,7/1/99,Nearhood,Justin,20 Years,Kingston,Luzerne,PA,Male,White / Caucasian,12/10/19
+MP43017,1/5/03,Boron,Alice,81 Years,New Castle,Lawrence,PA,Female,White / Caucasian,1/12/24
+MP42785,5/16/95,Hart,Jeffry,90 Years,Folcroft,Delaware,PA,Male,White / Caucasian,4/1/20
+MP42810,1/10/96,Dilling,Glenn,47 Years,Pittsburgh,Allegheny,PA,Male,White / Caucasian,10/5/21
+MP42013,12/15/16,Hughes,Brianna,32 Years,New Kensington,Westmoreland,PA,Female,White / Caucasian,8/12/20
+MP42401,4/30/91,Kayser,Alvin,60 Years,Jeffersonville,Montgomery,PA,Male,White / Caucasian,3/31/20
+MP50857,5/31/04,Austin,Arnold,37 Years,Philadelphia,Philadelphia,PA,Male,Black / African American,4/27/21
+MP41786,1/13/18,Hoffman,Jason,45 Years,Bensalem,Bucks,PA,Male,White / Caucasian,4/7/20
+MP41712,8/10/77,Giovanetti,Arnold,41 Years,Philadelphia,Philadelphia,PA,Male,White / Caucasian,7/5/21
+MP42338,6/30/85,Shuglie,Janet,35 Years,Somerset,Somerset,PA,Female,White / Caucasian,5/24/22
+MP42387,6/25/90,Moore,Frederick,51 Years,Greensburg,Westmoreland,PA,Male,White / Caucasian,8/12/20
+MP42697,11/17/82,Wallace,Terry,20 Years,Greensburg,Westmoreland,PA,Male,White / Caucasian,6/18/20
+MP50858,11/1/98,Braim,Paula,41 Years,Whitehall,Lehigh,PA,Female,White / Caucasian,3/15/22
+MP52165,3/3/18,Capasso,Anthony,28 Years,Green Lane,Montgomery,PA,Male,White / Caucasian,6/12/25
+MP33017,7/31/81,Johnson,Charles,28 Years,Dunbar Township,Fayette,PA,Male,White / Caucasian,6/18/20
+MP50429,5/17/18,Bishop,Ira,38 Years,Chester,Delaware,PA,Male,Black / African American,6/3/25
+MP50382,3/9/18,Henry,Dion,38 Years,Hanover Twp,Luzerne,PA,Male,Black / African American,8/20/25
+MP27610,7/10/76,Dodson,Star,21 Years,Ebensburg,Cambria,PA,Female,White / Caucasian,3/24/20
+MP56006,8/2/18,Ye,Feng,53 Years,Upper Mount Bethel Township,Northampton,PA,Male,Asian,1/11/21
+MP55150,2/12/72,Bilodeau,Paul,41 Years,Elwood City,Lawrence,PA,Male,White / Caucasian,3/23/20
+MP54332,12/20/72,Shimkus,Julia,54 Years,Esplen,Allegheny,PA,Female,White / Caucasian,1/27/22
+MP53819,2/11/15,Okane,Amy,26 Years,Wilkes Barre,Luzerne,PA,Female,White / Caucasian,1/12/24
+MP38570,3/30/17,Maciejewska,Anna,43 Years,Malvern,Chester,PA,Female,White / Caucasian,10/28/25
+MP58735,12/1/18,Tesfamariam,Daniel,26 Years,Philadelphia,Philadelphia,PA,Male,Black / African American,8/12/20
+MP57689,3/10/15,Breymeier,Oren,60 Years,Philadelphia,Philadelphia,PA,Male,White / Caucasian,4/7/20
+MP59144,7/23/18,Cordero,Elias,48 Years,Philadelphia,Philadelphia,PA,Male,Hispanic / Latino,4/7/20
+MP60759,12/3/05,Fowkes,Larry,64 Years,Donegal,Westmoreland,PA,Male,White / Caucasian,4/3/20
+MP58656,11/26/15,Russell,Earle,65 Years,Philadelphia,Philadelphia,PA,Male,Black / African American,4/7/20
+MP80089,1/17/21,Henson,Melissa,35 Years,New Castle,Lawrence,PA,Female,White / Caucasian,9/24/24
+MP82122,5/5/19,Kamel,ALY,71 Years,Philadelphia,Philadelphia,PA,Male,White / Caucasian,7/13/21
+MP81123,5/28/21,Nellons III,Henry,52 Years,Philadelphia,Philadelphia,PA,Male,Black / African American,11/24/24
+MP71954,5/16/20,"Flango, Jr.",Gerard,48 Years,Clearfield,Clearfield,PA,Male,White / Caucasian,5/6/25
+MP72106,6/10/19,Adamo,Joseph,56 Years,Philadelphila,Philadelphia,PA,Male,White / Caucasian,10/8/22
+MP85269,1/1/18,Machinsky,Adam,30 Years,Wilkes-Barre Township,Luzerne,PA,Male,White / Caucasian,1/12/24
+MP88862,1/1/02,Torrens,Heriberto,52 Years,Philadelphia,Philadelphia,PA,Male,Hispanic / Latino,4/14/22
+MP88716,12/15/21,Arrington,Donald,63 Years,Pittsburgh,Allegheny,PA,Male,Black / African American,9/29/23
+MP86244,8/8/20,Stinger,Cassandra,38 Years,Philadelphia,Philadelphia,PA,Female,White / Caucasian,7/11/24
+MP93855,3/30/22,Longmire,Orlando,62 Years,Philadelphia,Philadelphia,PA,Male,Black / African American,8/8/22
+MP101088,1/20/23,Tico,Vasil,72 Years,Philadelphia,Philadelphia,PA,Male,White / Caucasian,1/19/24
+MP100567,8/27/22,Depa,Kimberly,35 Years,Philadelphia,Philadelphia,PA,Female,White / Caucasian,12/5/24
+MP100587,9/25/18,Arteaga-Flores,Brayan,17 Years,Fountain Hill,Lehigh,PA,Male,Hispanic / Latino,1/12/24
+MP122054,9/1/23,Smith,Alencia,57 Years,Philadelphia,Philadelphia,PA,Female,Black / African American,5/15/24
+MP123791,2/15/24,Benitez,Jose,16 Years,Harrisburg,Dauphin,PA,Male,Hispanic / Latino,6/13/25
+MP132180,2/18/21,Myers,Russell,53 Years,Hadley,Mercer,PA,Male,White / Caucasian,3/18/25
+MP108407,7/20/22,McGinnis,Sean,44 Years,Lansdale,Montgomery,PA,Male,White / Caucasian,9/27/23
+MP113738,12/11/23,Diaw,Paousman,15 Years,Harrisburg,Dauphin,PA,Male,Black / African American,1/12/24
+MP113765,1/10/22,Sarmento,Anthony,31 Years,West Chester,Chester,PA,Male,White / Caucasian,12/28/23
+MP115533,4/13/23,Wisor,Mandy,38 Years,Curwensville,Clearfield,PA,Female,White / Caucasian,4/22/25
+MP131916,11/8/21,Mason,Russell,41 Years,Wilcox,Elk,PA,Male,White / Caucasian,11/18/24
+MP142491,4/10/25,Dattisman,Anthony,17 Years,Dover,York,PA,Male,White / Caucasian,4/24/25
+MP139099,2/15/25,GARCIA,JULISA,16 Years,Lancaster,Lancaster,PA,Female,"Black / African American, White / Caucasian",2/24/25
+MP148755,7/29/25,Carranza,Ruben,36 Years,Greensburg,Westmoreland,PA,Male,"Hispanic / Latino, White / Caucasian",8/5/25
+MP147054,1/1/19,LIGHTFORD,DONTE,41 Years,Philadelphia,Philadelphia,PA,Male,Black / African American,7/8/25
+MP141029,3/25/25,Robbins,Jonathan,16 Years,Easton,Northampton,PA,Male,White / Caucasian,4/10/25
+MP149150,8/8/25,Garcia-Carmona,Tiara,16 Years,Easton,Northampton,PA,Female,"Hispanic / Latino, White / Caucasian",8/22/25
+MP50864,5/4/05,Ziegler,Stephen,34 Years,Erie,Erie,PA,Male,Black / African American,12/2/25
+MP862,5/1/97,Johnson,Sherline,35 Years,Philadelphia,Philadelphia,PA,Female,Black / African American,11/24/24
+MP149541,2/4/25,Ketter,Jay,48 Years,Pittsburgh,Allegheny,PA,Male,White / Caucasian,8/29/25
+MP1250,5/28/06,Rafte,Shelva,44 Years,Pittston,Luzerne,PA,Female,White / Caucasian,4/3/20
+MP765,12/2/00,Bendig,Thomas,76 Years,Philadelphia,Philadelphia,PA,Male,White / Caucasian,4/27/21
+MP798,5/27/05,Crespo,Christina,26 Years,Philadelphia,Philadelphia,PA,Female,"White / Caucasian, Hispanic / Latino",3/11/25
+MP799,12/7/03,Ellis,Robin,37 Years,Philadelphia,Philadelphia,PA,Female,Black / African American,5/5/25
+MP780,4/4/07,Burton,Jarrett,58 Years,Bethlehem,Lehigh,PA,Male,Black / African American,7/13/20
+MP7699,6/25/00,Myers,Tracy,21 Years,Philadelphia,Philadelphia,PA,Female,White / Caucasian,9/16/20
+MP7241,10/24/96,Malinowski,Michael,37 Years,Yardley,Tioga,PA,Male,White / Caucasian,4/1/20
+MP9335,10/2/07,Townsend,Verna,38 Years,Philadelphia,Philadelphia,PA,Female,Black / African American,1/12/24
+MP10349,11/24/05,Jeffreys,Michael,19 Years,Riverside,Northumberland,PA,Male,White / Caucasian,12/16/20
+MP8955,5/11/97,Santa-Cruz,Nicole,< 1 Year,Philadelphia,Philadelphia,PA,Female,Hispanic / Latino,4/1/20
+MP11259,1/28/11,Perry,Matthew,24 Years,Berwyne,Chester,PA,Male,White / Caucasian,4/7/24
+MP10268,3/4/11,Kail,Alivia,19 Years,West Mifflin,Allegheny,PA,Female,White / Caucasian,10/5/21
+MP8274,3/11/82,Bryner,Nicole,3 Years,Pittsburgh,Allegheny,PA,Female,White / Caucasian,7/12/21
+MP7218,10/4/86,Thornton,Jamie,1 Year,Pittsburgh,Allegheny,PA,Male,White / Caucasian,8/12/20
+MP7202,6/22/79,Reinert,Michael,10 Years,Ardmore,Montgomery,PA,Male,White / Caucasian,3/26/20
+MP6749,10/30/08,Turner,Aaron,16 Years,Coatesville,Chester,PA,Male,Black / African American,8/17/20
+MP8729,12/3/08,King,Michael,52 Years,West Finley Township,Washington,PA,Male,White / Caucasian,4/6/20
+MP8259,3/22/94,Kiefer,Frances,44 Years,Fountain Hill,Lehigh,PA,Female,White / Caucasian,4/1/20
+MP8568,12/1/97,Mann,John,35 Years,Philadelphia,Philadelphia,PA,Male,White / Caucasian,4/27/21
+MP7240,4/3/96,Avicolli,Michael,52 Years,Philadelphia,Philadelphia,PA,Male,White / Caucasian,4/17/25
+MP8276,4/27/99,Bradford,Genelle,17 Years,Pittsburgh,Allegheny,PA,Female,Black / African American,4/3/20
+MP8348,8/23/09,Sharpless,Toni,29 Years,Downingtown,Chester,PA,Female,White / Caucasian,12/14/24
+MP11620,5/11/83,Cerritelli,Susan,26 Years,Long Pond,Monroe,PA,Female,Asian,8/21/25
+MP14204,8/28/81,Hyman,Shirley,31 Years,Philadelphia,Philadelphia,PA,Female,Black / African American,7/8/25
+MP22862,12/1/99,Gerena,Neilsa,33 Years,Philadelphia,Philadelphia,PA,Female,Hispanic / Latino,1/12/24
+MP24544,2/13/12,Primavera,Jill,28 Years,Philadelphia,Philadelphia,PA,Female,White / Caucasian,5/29/25
+MP7036,6/7/62,Verdecchia,Mary Ann,10 Years,Pittsburgh,Allegheny,PA,Female,White / Caucasian,3/23/20
+MP3968,2/19/05,Petrone,Richard,35 Years,Philadelphia,Philadelphia,PA,Male,White / Caucasian,4/7/24
+MP2827,8/26/86,Lakey,Michelle,11 Years,Scranton,Lackawanna,PA,Female,White / Caucasian,7/29/20
+MP2662,1/7/81,Rogers,Lonene,29 Years,Hayfield Township,Crawford,PA,Female,White / Caucasian,11/4/22
+MP2911,5/22/89,Mozino,Dawn,23 Years,Wayne,Delaware,PA,Female,White / Caucasian,10/28/24
+MP2912,10/4/88,Jackson,Lauren,5 Years,Spring City,Chester,PA,Female,White / Caucasian,12/18/20
+MP2951,8/10/99,Rivera-Helton,Katelyn,1 Year,Boothwyn,Delaware,PA,Female,White / Caucasian,4/2/20
+MP5495,4/22/04,Kos,James,46 Years,Monroeville,Allegheny,PA,Male,White / Caucasian,4/15/22
+MP4472,8/10/96,Crissman,Timothy,39 Years,Armstrong County,Armstrong,PA,Male,White / Caucasian,7/21/25
+MP30732,8/11/15,Farber,Jesse,29 Years,Tamaqua,Schuylkill,PA,Male,White / Caucasian,8/5/25
+MP32971,2/1/06,Nau,Michelle,41 Years,Philadelphia,Philadelphia,PA,Female,White / Caucasian,4/27/21
+MP27484,12/31/89,Edmonds,Ernest,36 Years,Philadelphia,Philadelphia,PA,Male,Black / African American,4/27/21
+MP34894,2/8/80,McLaughlin,James,37 Years,Carbondale Township,Lackawanna,PA,Male,White / Caucasian,11/1/24
+MP37613,12/27/16,Smith,Timothy,34 Years,Torrance,Westmoreland,PA,Male,White / Caucasian,12/10/19
+MP34884,11/2/15,Stebler Jr,Kenneth,38 Years,Avalon,Allegheny,PA,Male,White / Caucasian,4/7/20
+MP37247,1/19/15,Zimmerman,Maria,70 Years,Philadelphia,Philadelphia,PA,Female,White / Caucasian,9/24/19
+MP41079,2/23/17,Chrisholm,Dominique,14 Years,Lake Ariel,Wayne,PA,Female,Hispanic / Latino,4/7/20
+MP13872,5/4/06,Buonassisi,Alex,25 Years,Philadelphia,Philadelphia,PA,Male,White / Caucasian,1/12/24
+MP15186,7/1/11,Demko,Justin,27 Years,Clearfield,Clearfield,PA,Male,White / Caucasian,4/6/20
+MP2494,10/21/77,Gregor,Ranee,15 Years,Robinson Township,Allegheny,PA,Female,White / Caucasian,3/11/22
+MP1750,1/1/82,Schram,Terrance,26 Years,Philadelphia,Philadelphia,PA,Male,White / Caucasian,11/2/25
+MP2910,1/14/82,Minarcin,Gabriel,10 Years,Tarentum,Allegheny,PA,Male,White / Caucasian,3/26/20
+MP42850,7/6/90,Brown,Frank,18 Years,Upper Darby,Delaware,PA,Male,White / Caucasian,3/31/20
+MP42863,3/31/00,Auteri,Michael,40 Years,Kane,McKean,PA,Male,White / Caucasian,10/27/20
+MP42357,8/13/77,Kolish,William,39 Years,Brush Valley Township,Indiana,PA,Male,White / Caucasian,10/5/20
+MP42823,1/18/97,Wright,Paul,39 Years,Pittsburgh,Allegheny,PA,Male,White / Caucasian,4/1/20
+MP42851,8/3/99,Gilmer,William,28 Years,Glassport,Allegheny,PA,Male,White / Caucasian,4/2/20
+MP42805,6/24/95,Bitter,Katherine,36 Years,Beaverdale,Cambria,PA,Female,White / Caucasian,9/5/25
+MP42802,3/21/83,Jacobs,Robert,20 Years,Warminster,Bucks,PA,Male,White / Caucasian,1/12/24
+MP42815,3/25/96,Lucas,Diana,48 Years,Pittsburgh,Allegheny,PA,Female,White / Caucasian,8/24/22
+MP42806,7/31/95,Jackson,Erik,40 Years,Coraopolis,Allegheny,PA,Male,White / Caucasian,4/1/20
+MP50379,4/27/18,Miller,Angela,76 Years,Scranton,Lackawanna,PA,Female,White / Caucasian,10/14/21
+MP43013,6/20/06,Jenkins,Cynthia,49 Years,Upper Darby,Delaware,PA,Female,White / Caucasian,1/12/24
+MP42816,4/16/96,Kislo,Angella,76 Years,Edwardsville,Luzerne,PA,Female,White / Caucasian,8/9/21
+MP42690,7/22/93,McCormick,Donald,27 Years,Frackville,Schuylkill,PA,Male,White / Caucasian,5/18/20
+MP50859,1/19/05,Cardona-Santiago,Yahira,21 Years,Allentown,Lehigh,PA,Female,White / Caucasian,4/3/20
+MP53964,6/13/18,Phillips,Tianna,25 Years,Berwick,Columbia,PA,Female,White / Caucasian,7/15/22
+MP59119,8/15/18,Lopez,Joel,50 Years,Philadelphia,Philadelphia,PA,Male,Hispanic / Latino,1/7/20
+MP67171,1/17/20,Bracken,Amy,39 Years,Braddock,Allegheny,PA,Female,White / Caucasian,9/5/25
+MP59141,2/18/18,Jones,Byron,48 Years,Philadelphia,Philadelphia,PA,Male,Black / African American,1/7/20
+MP59131,11/1/18,Matczk,William,62 Years,Philadelphia,Philadelphia,PA,Male,White / Caucasian,1/7/20
+MP54092,11/4/18,Chatma,Sterling,41 Years,Allentown,Lehigh,PA,Male,Black / African American,8/12/20
+MP59109,7/24/17,Rodriguez,Juan Victo,34 Years,Philadelphia,Philadelphia,PA,Male,"White / Caucasian, Hispanic / Latino",3/30/20
+MP59145,9/25/18,Santiago,Carmen,64 Years,Philadelphia,Philadelphia,PA,Female,Hispanic / Latino,3/30/20
+MP57220,10/20/72,Seaman,Agnes,47 Years,Cheswick,Allegheny,PA,Female,White / Caucasian,6/18/20
+MP58638,6/15/15,Bowen,Hughles,73 Years,Philadelpiha,Philadelphia,PA,Male,Black / African American,8/12/20
+MP54333,3/18/95,VanDine,Katherine,74 Years,Beach Lake,Wayne,PA,Female,White / Caucasian,10/22/20
+MP54096,12/10/18,Castillo Sagastume,Carlos,32 Years,Philadelphia,Philadelphia,PA,Male,Hispanic / Latino,4/8/20
+MP54141,12/25/17,"Horn, Jr",David,35 Years,Marcus Hook,Delaware,PA,Male,White / Caucasian,9/15/20
+MP70241,11/28/88,Bejarano,Adriana,15 Years,Ephrata,Lancaster,PA,Female,"Other, White / Caucasian",6/3/25
+MP72067,7/18/20,Lopez Escalante,Mariela,18 Years,Mt Lebanon,Allegheny,PA,Female,Hispanic / Latino,1/28/25
+MP84698,5/17/14,Quinones-Garcia,Maria,54 Years,Allentown,Lehigh,PA,Female,Hispanic / Latino,3/28/25
+MP81424,4/5/75,Bush,Christopher,2 Years,Philadelphia,Philadelphia,PA,Male,Black / African American,9/12/23
+MP85102,9/29/21,Smyre,Nicholas,23 Years,Harrisburg,Dauphin,PA,Male,White / Caucasian,8/5/25
+MP82537,8/26/19,McEwen,Steven,30 Years,McDonald,Allegheny,PA,Male,White / Caucasian,1/12/24
+MP107841,6/21/23,Fitzgerald,Alexander,33 Years,Philadelphia,Philadelphia,PA,Male,Black / African American,4/3/24
+MP104628,4/20/23,Green,Amaiya,16 Years,York,York,PA,Female,Hispanic / Latino,6/16/23
+MP106124,7/15/23,Shiels,Conrad,< 1 Year,Washington Crossing,Bucks,PA,Male,White / Caucasian,8/11/23
+MP110456,9/3/23,Long,Rino,68 Years,Sterling,Wayne,PA,Male,White / Caucasian,12/20/24
+MP86758,9/12/21,Seidel,Isaac,36 Years,Blain,Perry,PA,Male,White / Caucasian,1/14/25
+MP118770,2/20/24,Scanlon,Tracy,54 Years,Harrisburg,Dauphin,PA,Female,White / Caucasian,4/30/24
+MP90667,4/15/22,TAURIANEN,Jeffrey,33 Years,Clearfield,Clearfield,PA,Male,Black / African American,1/12/24
+MP99266,10/22/22,Vidal,Zachary,27 Years,Pottsville,Schuylkill,PA,Male,White / Caucasian,1/18/24
+MP95643,5/1/21,Hussey,Martin,72 Years,Latrobe,Westmoreland,PA,Male,White / Caucasian,10/2/23
+MP97042,3/19/20,Coale,William,67 Years,Philadelphia,Philadelphia,PA,Male,White / Caucasian,7/14/23
+MP127769,4/19/24,Price,Jamyrah,17 Years,Warminster,Bucks,PA,Female,Black / African American,8/22/24
+MP101412,1/1/18,Beatty,Sharrita,40 Years,Philadelphia,Philadelphia,PA,Female,Black / African American,11/29/23
+MP102633,10/15/22,Santiago,Richy,23 Years,Philadelphia,Philadelphia,PA,Male,Hispanic / Latino,4/25/23
+MP95532,8/28/22,Sadecky,Tonya,46 Years,Brackenridge,Allegheny,PA,Female,White / Caucasian,1/17/25
+MP139522,8/11/21,Anay-Laynez,Margarita,15 Years,West Mifflin,Allegheny,PA,Female,Hispanic / Latino,3/4/25
+MP141617,2/13/25,SCOTT,Dwane,58 Years,Reading,Berks,PA,Male,Black / African American,9/18/25
+MP145911,3/28/25,Rivera-Hurtado,Jose,38 Years,Philadelphia,Philadelphia,PA,Male,Hispanic / Latino,6/24/25
+MP143390,5/1/25,Myers,Machia,17 Years,Allentown,Lehigh,PA,Female,Black / African American,5/22/25
+MP142421,1/31/25,Dennis,Gary,64 Years,Point Marion,Fayette,PA,Male,White / Caucasian,4/23/25
+MP142919,3/14/25,Plant,Joseph,27 Years,Philadelphia,Philadelphia,PA,Male,Black / African American,5/5/25
+MP147770,3/19/14,Dorsaneo,Elizabeth,55 Years,Wrightsville,York,PA,Female,White / Caucasian,7/21/25
+MP137647,1/6/25,Hill,Jah'Breeze,17 Years,Harrisburg,Dauphin,PA,Female,Black / African American,2/13/25
+MP151032,6/25/25,Herman,Nicole,45 Years,Hallstead,Susquehanna,PA,Female,White / Caucasian,12/4/25
+MP15472,4/18/90,Wilson,Sparky,13 Years,Pittsburgh,Allegheny,PA,Female,Black / African American,3/31/20
+MP19382,3/30/03,Lanier,Marilyn,45 Years,Philadelphia,Philadelphia,PA,Female,Black / African American,10/22/20
+MP19246,7/26/05,Redzich,Richard,57 Years,Honesdale,Wayne,PA,Male,White / Caucasian,2/11/25
+MP19359,12/13/97,Meirino,Carmen,49 Years,Philadelphia,Philadelphia,PA,Female,Hispanic / Latino,10/22/20
+MP38242,4/25/17,Workman,Shane,31 Years,Lewistown,Mifflin,PA,Male,White / Caucasian,5/16/25
+MP39767,6/22/61,Mertz,Martha,47 Years,Lancaster,Lancaster,PA,Female,White / Caucasian,11/19/25
+MP39999,7/16/93,Rutter,Randy,46 Years,Harrisburg,Dauphin,PA,Male,White / Caucasian,8/5/25
+MP42311,3/14/17,Hopkinson,Norris,65 Years,Millville,Columbia,PA,Male,White / Caucasian,4/7/20
+MP42411,3/31/14,Buhrman,Terrie,61 Years,Hellam Township,York,PA,Female,White / Caucasian,8/1/24
+MP51306,6/11/18,Morse,William,59 Years,Sugarloaf,Luzerne,PA,Male,White / Caucasian,8/20/25
+MP50375,12/9/16,West,Yiear,28 Years,Wilkes-Barre,Luzerne,PA,Male,Black / African American,10/2/24
+MP42220,5/16/89,Gilliams,Gary,38 Years,Reading,Berks,PA,Male,White / Caucasian,3/31/20
+MP42870,11/25/15,Rogers,Jacob,36 Years,Philadelphia,Philadelphia,PA,Male,White / Caucasian,4/27/21
+MP50385,9/1/07,Mikulak,Mary,89 Years,Plains Township,Luzerne,PA,Female,White / Caucasian,8/8/22
+MP53643,11/18/17,Rohal,Patrick,30 Years,Pittsburgh,Allegheny,PA,Male,White / Caucasian,9/8/22
+MP59104,6/16/17,Nowell,Virgie,44 Years,Philadelphia,Philadelphia,PA,Female,Black / African American,1/7/20
+MP58452,11/17/18,Krzywicki,Robert,23 Years,Philadelphia,Philadelphia,PA,Male,White / Caucasian,11/24/24
+MP59140,8/21/18,Bennett,Waseem,14 Years,Philadelphia,Philadelphia,PA,Male,Hispanic / Latino,1/7/20
+MP55904,11/1/18,White,Bradley,45 Years,Titusville,Crawford,PA,Male,White / Caucasian,5/21/25
+MP58983,1/10/19,Sanchez,Nayelis,16 Years,Philadelphia,Philadelphia,PA,Female,Hispanic / Latino,1/7/20
+MP59125,6/15/17,Ezell,Kenisha,23 Years,Philadelphia,Philadelphia,PA,Female,Black / African American,8/12/20
+MP22050,7/30/93,Bealer,John,50 Years,Germansville,Lehigh,PA,Male,White / Caucasian,3/31/20
+MP25047,10/17/13,Vega,Aliyah,14 Years,Flourtown,Montgomery,PA,Female,Hispanic / Latino,4/23/24
+MP25995,5/15/14,Cahill-Shadle,Jennifer,48 Years,State College,Centre,PA,Female,White / Caucasian,1/12/24
+MP17687,6/18/04,Copes,Roosevelt,69 Years,Philadelphia,Philadelphia,PA,Male,Black / African American,4/27/21
+MP17878,7/15/12,Frasier,David,64 Years,Claysburg,Blair,PA,Male,White / Caucasian,4/29/24
+MP15432,5/21/09,Rodgers,Alicea,16 Years,Hazelwood,Allegheny,PA,Female,Black / African American,4/6/20
+MP33015,2/28/82,Simpson,Jacqueline,44 Years,Vandergrift,Westmoreland,PA,Female,White / Caucasian,3/26/20
+MP35088,1/14/16,Whitenight Jr,Steven,30 Years,Bloomsburg,Columbia,PA,Male,White / Caucasian,4/7/20
+MP32192,12/29/82,Rossi,Mario,50 Years,Philadelphia,Philadelphia,PA,Male,White / Caucasian,10/10/23
+MP36425,4/15/83,Bellaire,Perry,24 Years,Pittsburgh,Allegheny,PA,Male,White / Caucasian,6/7/21
+MP26163,3/1/13,Gaston,Roosevelt,47 Years,Drexel Hill,Delaware,PA,Male,Black / African American,4/7/20
+MP34229,9/1/13,Council,Niija,20 Years,Philadelphia,Philadelphia,PA,Female,Black / African American,11/16/23
+MP33599,2/7/16,Barrera,Jamie,32 Years,Levittown,Bucks,PA,Female,White / Caucasian,1/12/24
+MP32981,11/19/59,Krulce,Marcella,30 Years,Pittsburgh,Allegheny,PA,Female,White / Caucasian,1/20/22
+MP1466,1/29/99,Wolf,Diane,45 Years,Hanover,Adams,PA,Female,White / Caucasian,4/2/20
+MP2495,12/7/78,Williams,Joanne,22 Years,Scranton,Lackawanna,PA,Female,White / Caucasian,9/12/23
+MP3067,7/6/07,Offutt,Joey,33 Years,Sykesville,Jefferson,PA,Female,White / Caucasian,9/18/25
+MP1610,8/28/01,Cunha,Cheryl,30 Years,Easton,Northampton,PA,Female,White / Caucasian,5/28/24
+MP2478,2/22/85,Mahan,Cherrie,8 Years,Cabot,Butler,PA,Female,White / Caucasian,2/3/25
+MP2825,3/7/83,Byrd,Tracy,14 Years,Bensalem Township,Bucks,PA,Female,White / Caucasian,4/1/22
+MP2907,9/22/81,Reidenbach,Michele,16 Years,Evans,Butler,PA,Female,White / Caucasian,8/17/22
+MP7228,9/11/92,Thistlewood,John,37 Years,Philadelphia,Philadelphia,PA,Male,White / Caucasian,4/30/25
+MP9414,6/22/79,Reinert,Karen,11 Years,Ardmore,Montgomery,PA,Female,White / Caucasian,3/26/20
+MP7231,2/16/93,Bean,John,87 Years,East Norriton Township,Montgomery,PA,Male,White / Caucasian,3/31/20
+MP7201,7/19/69,"Chocha, Jr.",John,52 Years,Harrisburg,Dauphin,PA,Male,White / Caucasian,8/5/25
+MP7922,12/31/83,Matthews,Amy,24 Years,Plymouth Township,Montgomery,PA,Female,White / Caucasian,3/26/20
+MP7034,9/11/47,Sharpman,Beverly,16 Years,Philadelphia,Philadelphia,PA,Female,White / Caucasian,12/2/21
+MP8265,5/26/97,Wooten,Constance,34 Years,Pittsburgh,Allegheny,PA,Female,Black / African American,11/14/25
+MP7229,1/7/93,Branton,David,33 Years,Allentown,Lehigh,PA,Male,White / Caucasian,5/9/24
+MP6548,12/12/00,Pyles,Eric,12 Years,Jonestown,Lebanon,PA,Male,White / Caucasian,4/2/20
+MP7225,11/9/91,Majewski,William,8 Years,McKees Rocks,Allegheny,PA,Male,White / Caucasian,3/31/20
+MP7243,2/22/98,Sweeney,Edmond,67 Years,Saylorsburg,Monroe,PA,Male,White / Caucasian,4/1/20
+MP7033,5/8/38,West,Marjorie,4 Years,White Gravel,McKean,PA,Female,White / Caucasian,4/17/25
+MP11196,9/8/03,Walker,Andriene,19 Years,Upper Darby,Delaware,PA,Female,Black / African American,7/24/23
+MP10658,4/1/83,Schauber III,Carl,22 Years,Chester Springs,Chester,PA,Male,White / Caucasian,9/15/25
+MP11086,4/28/99,Cunillera,David,22 Years,Lake Winola,Wyoming,PA,Male,"White / Caucasian, Hispanic / Latino",7/29/20
+MP11085,5/26/70,Cann,Ilonka,22 Years,Huntington Mills,Luzerne,PA,Female,White / Caucasian,8/8/22
+MP9316,4/1/10,DuPriest,Jeanette,41 Years,Philadelphia,Philadelphia,PA,Female,Black / African American,1/12/24
+MP5386,4/12/94,Wells,Karen,23 Years,Carlisle,Cumberland,PA,Female,White / Caucasian,4/1/20
+MP3951,10/7/88,Groomes,Ada,54 Years,Scottdale,Westmoreland,PA,Female,White / Caucasian,3/31/20
+MP11909,7/27/91,Lewis,James,4 Years,Lancaster City,Lancaster,PA,Male,Black / African American,1/12/24
+MP14211,7/15/91,Heckel,Katherine,40 Years,Mill Hall,Clinton,PA,Female,White / Caucasian,4/23/20
+MP15590,8/21/83,McClelland,Monique,17 Years,Levittown,Bucks,PA,Female,White / Caucasian,4/1/22
+MP14325,12/17/11,Angel,Joann,51 Years,Etna Borough,Allegheny,PA,Female,White / Caucasian,3/14/22
+MP65623,9/28/19,Gsell,Kimberley,38 Years,Carlisle,Cumberland,PA,Female,White / Caucasian,9/30/25
+MP65364,7/26/16,Ramey,William,62 Years,Pittsburgh,Allegheny,PA,Male,Black / African American,9/2/20
+MP65848,8/1/14,Drozdowski,Danielle,25 Years,Wilkes-Barre,Luzerne,PA,Female,White / Caucasian,9/16/25
+MP73893,5/10/17,JONES,TYSON,3 Years,Philadelphia,Philadelphia,PA,Male,"White / Caucasian, Black / African American",9/19/22
+MP74325,5/23/20,Peters,Marc,59 Years,Reading,Berks,PA,Male,White / Caucasian,11/17/20
+MP96866,1/15/22,Sims,wILFORD,85 Years,Philadelphia,Philadelphia,PA,Male,Black / African American,10/31/22
+MP97039,10/21/21,Williams,Qadr,10 Years,Philadelphia,Philadelphia,PA,Female,Black / African American,11/3/22
+MP92683,6/25/22,Oneal-Sloane,Kiara,17 Years,Harrisburg,Dauphin,PA,Female,Black / African American,6/13/25
+MP79782,10/10/20,Moore,Delores,70 Years,Philadelphia,Philadelphia,PA,Female,Black / African American,12/27/21
+MP100937,7/1/18,Fresses,Maribel,27 Years,Philadelphia,Philadelphia,PA,Female,"White / Caucasian, Hispanic / Latino",5/20/24
+MP106983,12/30/22,Frazier,Michael,63 Years,Scranton,Lackawanna,PA,Male,Black / African American,9/28/23
+MP106281,6/26/23,Bosh,Matthew,60 Years,Moon Township,Allegheny,PA,Male,White / Caucasian,8/1/23
+MP104056,11/24/92,Harclerode,Donald,53 Years,Harrisburg,Dauphin,PA,Male,White / Caucasian,6/12/23
+MP80100,4/2/20,Donahue,Angel,47 Years,Sunbury,Northumberland,PA,Female,White / Caucasian,10/12/22
+MP111231,11/2/23,Carter,Elijah,15 Years,Waynesboro,Franklin,PA,Male,Black / African American,6/24/25
+MP118319,3/9/24,Deronette,Melodee,16 Years,Wyomissing,Berks,PA,Female,Black / African American,4/4/24
+MP88422,12/25/21,Dixon,David,22 Years,Philadelphia,Philadelphia,PA,Male,Black / African American,2/4/22
+MP88383,3/1/17,Graves,Pamela,68 Years,Philadelphia,Philadelphia,PA,Female,Black / African American,1/27/22
+MP122526,5/20/24,Segura-Marte,Jorge,17 Years,Harrisburg,Dauphin,PA,Male,Hispanic / Latino,6/13/25
+MP125835,3/23/24,Whisman,Matthew,25 Years,Drumore,Lancaster,PA,Male,Hispanic / Latino,5/21/25
+MP127508,8/11/24,Quiej,Blanca,16 Years,Easton,Northampton,PA,Female,Hispanic / Latino,8/19/24
+MP126412,7/25/24,Klingensmith,Joshua,49 Years,Jefferson Hills,Allegheny,PA,Male,White / Caucasian,9/25/24
+MP128362,6/25/24,Conrad,Katelynn,32 Years,Oakdale,Allegheny,PA,Female,White / Caucasian,9/25/24
+MP133356,12/15/23,Giddings,Carlina,1 Year,Philadelphia,Philadelphia,PA,Female,Black / African American,12/11/24
+MP139927,10/24/22,Yaich,Jasmine,37 Years,Jim Thorpe,Carbon,PA,Female,White / Caucasian,4/8/25
+MP139612,3/3/25,RIVERA,DANEISHKA,15 Years,Lancaster,Lancaster,PA,Female,"White / Caucasian, Hispanic / Latino",3/6/25
+MP136964,1/10/25,WU,Enci,14 Years,Easton,Northampton,PA,Female,Asian,5/21/25
+MP144733,5/24/25,Kashindi,Sakina,17 Years,Harrisburg,Dauphin,PA,Female,Black / African American,6/13/25
+MP98846,12/3/22,McCartney,Nicole,37 Years,Harrisburg,Dauphin,PA,Female,White / Caucasian,1/30/25
+MP69813,5/1/04,DeBalso,Cheryl,37 Years,Reading,Berks,PA,Female,White / Caucasian,5/5/25
+MP863,6/24/02,Kahler,Sabrina,20 Years,Erie,Erie,PA,Female,White / Caucasian,11/5/24
+MP2313,8/8/91,Collins,Melissa,17 Years,Akron,Summit,OH,Female,Black / African American,8/1/24
+MP3852,7/2/99,Henley,Trevell,15 Years,Columbus,Franklin,OH,Male,Black / African American,8/29/25
+MP1687,7/9/07,Summers,Ashley,14 Years,Cleveland,Cuyahoga,OH,Female,White / Caucasian,11/14/24
+MP1664,11/26/96,Balas,Stacey,25 Years,Fair View Park,Cuyahoga,OH,Female,White / Caucasian,7/28/23
+MP4297,2/17/04,Modlin,Phillip,26 Years,Dayton,Montgomery,OH,Male,Black / African American,8/1/24
+MP4523,4/19/53,Tammen,Ronald,19 Years,Oxford,Butler,OH,Male,White / Caucasian,8/1/24
+MP4360,6/8/00,Blasetzky,Nicholas,78 Years,Toledo,Lucas,OH,Male,White / Caucasian,1/4/24
+MP7540,4/5/73,Brown,Charlotte,29 Years,Cleveland,Cuyahoga,OH,Female,White / Caucasian,9/5/25
+MP5412,2/11/76,Lloyd,Lori,14 Years,Kettering,Montgomery,OH,Female,White / Caucasian,8/1/24
+MP12093,2/7/11,DiSilvestro,William,28 Years,Hamilton,Butler,OH,Male,White / Caucasian,1/5/24
+MP12363,9/19/77,Hamilton,Linda,28 Years,North Lima,Mahoning,OH,Female,White / Caucasian,8/1/24
+MP7952,5/14/93,Powell,James,45 Years,Kent,Portage,OH,Male,White / Caucasian,11/14/25
+MP7940,3/30/06,Smith,Susan,41 Years,Toledo,Lucas,OH,Female,White / Caucasian,3/25/25
+MP5720,8/27/09,Donaldson,Patricia,33 Years,Jackson,Jackson,OH,Female,White / Caucasian,3/11/25
+MP7083,5/1/81,Sexton,Lisa,14 Years,Elyria,Lorain,OH,Female,White / Caucasian,8/1/24
+MP7266,5/24/78,Martins,Judy,22 Years,Kent,Portage,OH,Female,White / Caucasian,8/1/24
+MP7510,1/21/66,Brown,Darcy,22 Years,Lakewood,Cuyahoga,OH,Female,White / Caucasian,8/1/24
+MP8034,12/15/95,Markley,Johnny,36 Years,Bristolville,Trumbull,OH,Male,White / Caucasian,3/25/25
+MP7424,9/28/73,Pretorius,Sharon,13 Years,Dayton,Montgomery,OH,Female,White / Caucasian,8/1/24
+MP6847,10/9/05,Stutton,Jeffrey,46 Years,Columbus,Franklin,OH,Male,White / Caucasian,3/30/25
+MP14105,10/31/05,Brubaker,Benjamin,30 Years,Ashland,Ashland,OH,Male,White / Caucasian,6/3/25
+MP15049,1/1/83,Arrington,Charles,44 Years,Parma,Cuyahoga,OH,Male,Black / African American,8/1/24
+MP10954,5/11/92,Morrissey,Liam,26 Years,Cincinnati,Hamilton,OH,Male,White / Caucasian,11/7/24
+MP10684,9/9/96,Stubbs,Lora,25 Years,Cincinnati,Hamilton,OH,Female,Black / African American,11/7/24
+MP8895,1/3/02,Higham,James,16 Years,Youngstown,Mahoning,OH,Male,"White / Caucasian, Asian",2/2/24
+MP9636,9/26/05,Roland,William,22 Years,Cincinnati,Hamilton,OH,Male,Black / African American,11/7/24
+MP9735,6/5/05,Fisher,Timothy,45 Years,Columbus,Franklin,OH,Male,White / Caucasian,3/30/25
+MP20413,9/18/74,Stanley,James,25 Years,Athens,Athens,OH,Male,White / Caucasian,8/1/24
+MP19548,1/12/05,Damanik,Bianca,2 Years,Willoughby,Lake,OH,Female,"White / Caucasian, Asian",8/1/24
+MP20280,3/22/13,Yoczik,Sharon,67 Years,Gallipolis,Gallia,OH,Female,White / Caucasian,8/5/24
+MP23568,11/26/78,Hale,John,28 Years,Columbus,Franklin,OH,Male,White / Caucasian,3/30/25
+MP24865,2/3/03,Shoemaker,Florence,75 Years,Ravenna,Portage,OH,Female,White / Caucasian,1/4/24
+MP25575,11/19/77,Burton,Betty,54 Years,North Olmsted,Cuyahoga,OH,Female,White / Caucasian,8/1/24
+MP24846,10/24/83,Wing,Carl,51 Years,Lorain,Lorain,OH,Male,White / Caucasian,8/1/24
+MP24880,5/10/82,McKown,Clyde,34 Years,Macksburg,Washington,OH,Male,White / Caucasian,10/29/25
+MP24876,5/20/76,Howard,Edward,40 Years,Milford Center,Union,OH,Male,White / Caucasian,8/1/24
+MP24879,2/17/94,Miller,Mark,43 Years,Franklin,Warren,OH,Male,White / Caucasian,8/1/24
+MP24872,3/31/96,Newman,Joseph,34 Years,Canton,Stark,OH,Male,White / Caucasian,1/12/24
+MP22880,3/22/95,McNeese,Shawn,23 Years,Grove City,Franklin,OH,Male,White / Caucasian,1/4/24
+MP24540,4/17/94,Shoemaker,Melvin,70 Years,Chardon,Geauga,OH,Male,White / Caucasian,8/1/24
+MP35017,7/18/97,Parisi,Catherine,26 Years,Cleveland,Cuyahoga,OH,Female,White / Caucasian,1/4/24
+MP35021,5/11/16,English,Brandy,41 Years,Middletown,Butler,OH,Female,White / Caucasian,8/1/24
+MP36695,1/30/15,Hamm,Terri,52 Years,Lancaster,Fairfield,OH,Female,White / Caucasian,8/5/24
+MP34310,12/3/14,Clements,Tyler,24 Years,Cincinnati,Hamilton,OH,Male,White / Caucasian,8/5/24
+MP31582,6/22/95,Kingsley,Christine,17 Years,Elyria,Lorain,OH,Female,White / Caucasian,3/24/25
+MP42431,1/4/18,Snider,Roberta,69 Years,Hartville,Stark,OH,Female,White / Caucasian,6/6/25
+MP41555,12/23/17,Antill,Shawn,24 Years,Cadiz,Harrison,OH,Male,White / Caucasian,9/27/25
+MP38669,3/25/17,Crider,Holly,38 Years,Mansfield,Richland,OH,Female,White / Caucasian,8/1/24
+MP40215,7/1/17,Coe,Chelsey,25 Years,Miamisburg,Montgomery,OH,Female,White / Caucasian,8/1/24
+MP52102,1/1/84,Blevins,Lorie,16 Years,Unknown,Scioto,OH,Female,White / Caucasian,3/6/25
+MP50501,7/27/17,Darrow,Alvin,63 Years,Toledo,Lucas,OH,Male,White / Caucasian,8/5/24
+MP51743,1/1/17,Wilson-Talley,Kimberly,49 Years,Youngstown,Mahoning,OH,Female,Black / African American,8/1/24
+MP41405,1/5/17,Boyd,Jacob,36 Years,Columbus,Franklin,OH,Male,White / Caucasian,8/28/25
+MP40180,12/27/28,Horst,Melvin,4 Years,Orrville,Wayne,OH,Male,White / Caucasian,8/1/24
+MP26796,3/25/14,McKnight,Zaden,4 Years,Dayton,Montgomery,OH,Male,Black / African American,8/7/24
+MP30799,5/27/14,Dicenso,Regina,53 Years,Warren,Trumbull,OH,Female,White / Caucasian,8/5/24
+MP32737,7/4/13,Suzor,Trenton,20 Years,Toledo,Lucas,OH,Male,White / Caucasian,8/5/24
+MP56019,2/24/19,Davis,Tyler,29 Years,Columbus,Franklin,OH,Male,White / Caucasian,4/7/22
+MP111570,7/5/23,Hagen,Bobbie,35 Years,Cambridge,Guernsey,OH,Male,White / Caucasian,5/16/25
+MP93705,6/29/22,Purnell,Allen,16 Years,Tallmadge,Summit,OH,Male,Uncertain,1/6/23
+MP117646,11/16/23,Cassidy,Rachel,40 Years,Youngstown,Mahoning,OH,Female,White / Caucasian,4/22/25
+MP126810,3/29/23,McKinney,Dakota,23 Years,Middletown,Butler,OH,Male,White / Caucasian,2/24/25
+MP60953,2/18/19,Dobkins,Tessa,42 Years,Cincinnati,Clermont,OH,Female,White / Caucasian,12/16/20
+MP61602,9/1/13,Samas,John,66 Years,Parma,Cuyahoga,OH,Male,White / Caucasian,3/1/21
+MP60160,6/1/17,Burhenne,Seth,34 Years,Willoughby,Lake,OH,Male,White / Caucasian,9/29/23
+MP65767,9/23/18,Strupe,Howard,54 Years,Rayland,Jefferson,OH,Male,White / Caucasian,2/26/25
+MP79687,2/27/21,Hutchinson,James,6 Years,Middletown,Butler,OH,Male,White / Caucasian,4/7/22
+MP78167,9/6/20,Boykin,Vincent,41 Years,Dayton,Montgomery,OH,Male,Black / African American,4/4/24
+MP85495,4/13/19,White,David,21 Years,Findlay,Hancock,OH,Male,White / Caucasian,4/28/25
+MP86127,4/12/21,Mercer,Harold,50 Years,Columbus,Franklin,OH,Male,White / Caucasian,6/6/24
+MP88037,2/29/20,Fugate,David,48 Years,Covington,Miami,OH,Male,"White / Caucasian, Asian",7/21/25
+MP82785,6/24/21,McQueen,Rajah,27 Years,Cleveland,Cuyahoga,OH,Female,Black / African American,3/11/25
+MP89974,3/13/22,Clifford,Dakota,22 Years,Bryan,Williams,OH,Male,White / Caucasian,1/12/24
+MP116802,8/1/23,Crane,Todd,47 Years,Cincinnati,Hamilton,OH,Male,White / Caucasian,4/29/25
+MP102097,5/1/22,Brown,Jesse,30 Years,Newark,Licking,OH,Male,Black / African American,8/20/25
+MP99576,8/7/22,ROBLERO-VENTURA,YENSI,16 Years,Cincinnati,Hamilton,OH,Male,Hispanic / Latino,1/30/23
+MP98814,11/14/22,Campbell,William,46 Years,Hamilton,Butler,OH,Male,White / Caucasian,1/12/24
+MP98513,7/11/17,Dean,Amanda,36 Years,Collins,Huron,OH,Female,White / Caucasian,1/12/24
+MP128918,3/19/24,Heagen,Richard,54 Years,Zanesville,Muskingum,OH,Male,White / Caucasian,2/12/25
+MP108570,6/17/23,Williams,Keshaun,15 Years,Cleveland,Cuyahoga,OH,Male,Black / African American,7/9/25
+MP131387,4/23/24,Nye,Leonard,73 Years,Tiffin,Seneca,OH,Male,White / Caucasian,10/16/24
+MP140970,3/16/25,Rollins,Trenton,21 Years,Delaware,Delaware,OH,Male,Black / African American,11/20/25
+MP143042,6/11/24,Fuentes-Ayala,Maria,48 Years,Columbus,Franklin,OH,Female,Hispanic / Latino,7/17/25
+MP141582,8/20/24,Jones,Calvin,37 Years,Cleveland,Cuyahoga,OH,Male,"White / Caucasian, Other",6/24/25
+MP147002,5/18/25,Southwick,Ezra,24 Years,Marion,Marion,OH,Male,White / Caucasian,11/16/25
+MP144062,3/1/24,Moore,Kevin,58 Years,Youngstown,Mahoning,OH,Male,Black / African American,7/8/25
+MP142920,6/1/23,Genson,Matthew,29 Years,Toledo,Lucas,OH,Male,White / Caucasian,11/14/25
+MP149642,5/16/25,Baral,Rohit,48 Years,Middleburg Heights,Cuyahoga,OH,Male,Asian,8/29/25
+MP115557,6/25/82,Maue,Phyllis,29 Years,Norwood,Hamilton,OH,Female,White / Caucasian,12/3/25
+MP100224,12/27/22,Chapman,Cierra,30 Years,Trotwood,Montgomery,OH,Female,Black / African American,1/23/24
+MP16965,2/18/82,Moncer,Leon,21 Years,Bellaire,Belmont,OH,Male,White / Caucasian,8/1/24
+MP19046,12/1/95,Leonard,Connie,31 Years,Dayton,Montgomery,OH,Female,Black / African American,4/19/24
+MP20383,6/26/09,Jones,Samuel,57 Years,Cleveland,Cuyahoga,OH,Male,Black / African American,1/12/24
+MP24870,10/20/96,Foster,Ruth,45 Years,Canton,Stark,OH,Female,Black / African American,1/4/24
+MP23403,7/5/92,Dixon,Carmella,25 Years,Canton,Stark,OH,Female,Black / African American,8/1/24
+MP24238,11/25/03,"Haynes, Jr.",Leonard,59 Years,New Richmond,Clermont,OH,Male,White / Caucasian,8/1/24
+MP26053,6/19/13,Briggs,Shaniece,26 Years,Columbus,Franklin,OH,Female,Black / African American,8/5/24
+MP24852,7/11/89,Byers,Marcell,19 Years,Youngstown,Mahoning,OH,Male,Black / African American,4/22/25
+MP24352,10/1/08,Appel,David,33 Years,Westlake,Cuyahoga,OH,Male,White / Caucasian,1/5/24
+MP24833,11/23/93,Riggle,Michael,41 Years,Jefferson,Ashtabula,OH,Male,White / Caucasian,8/1/24
+MP24877,5/5/98,Bush,William,38 Years,McArthur,Vinton,OH,Male,White / Caucasian,1/12/24
+MP24858,3/4/02,Welch,Gregory,54 Years,Dayton,Montgomery,OH,Male,White / Caucasian,4/19/24
+MP24868,4/9/01,Ramirez,Juan,30 Years,Chillicothe,Ross,OH,Male,White / Caucasian,1/12/24
+MP28390,7/6/95,Ford,David,31 Years,Cincinnati,Hamilton,OH,Male,Black / African American,1/12/24
+MP27441,12/5/14,Humble,Jade,22 Years,Cincinnati,Hamilton,OH,Female,White / Caucasian,11/7/24
+MP26896,6/13/81,Brewer,Phyllis,19 Years,Lowellville,Mahoning,OH,Female,White / Caucasian,6/30/25
+MP15539,4/9/12,Roberts Sr,Kenneth,61 Years,Columbus,Franklin,OH,Male,Black / African American,3/30/25
+MP29301,1/21/15,Toboz,Kimberly,38 Years,Warren,Trumbull,OH,Female,White / Caucasian,8/1/24
+MP29290,1/28/08,Addison,James,52 Years,Akron,Summit,OH,Male,White / Caucasian,2/14/22
+MP4366,6/14/04,Lysle,Gene,39 Years,Wellsville,Columbiana,OH,Male,White / Caucasian,8/1/24
+MP1861,6/13/80,Papesh,Tiffany,8 Years,Maple Heights,Cuyahoga,OH,Female,White / Caucasian,8/1/24
+MP1963,8/5/06,Boffman,Lori,45 Years,Youngstown,Mahoning,OH,Female,Black / African American,8/6/24
+MP2391,10/1/89,Dolgae,Janet,28 Years,Cortland,Trumbull,OH,Female,White / Caucasian,8/1/24
+MP5150,5/10/82,Ludwig,Annabelle,40 Years,Cridersville,Allen,OH,Female,White / Caucasian,4/7/25
+MP11771,7/15/10,Haas,Christopher,37 Years,Scottown,Lawrence,OH,Male,White / Caucasian,1/5/24
+MP9638,9/26/05,Akemon,Dion,32 Years,Cincinnati,Hamilton,OH,Male,Black / African American,11/7/24
+MP10558,6/12/99,Campbell,Tammi,33 Years,Grove City,Franklin,OH,Female,White / Caucasian,12/8/16
+MP10251,5/20/07,Walker,Gloria,46 Years,Cleveland,Cuyahoga,OH,Female,Black / African American,1/12/24
+MP10580,12/13/06,Decker,Ernest,52 Years,Waynesburg,Carroll,OH,Male,White / Caucasian,4/4/25
+MP10302,8/4/09,Predragovic,Paul,81 Years,Carrollton,Carroll,OH,Male,White / Caucasian,4/3/25
+MP9661,3/23/00,Szasz,Lisa,37 Years,Andover,Ashtabula,OH,Female,White / Caucasian,1/4/24
+MP7943,8/10/00,Brock,Christine,29 Years,Warren,Trumbull,OH,Female,White / Caucasian,1/4/24
+MP10560,1/3/98,Dawson,Maebell,68 Years,Dayton,Montgomery,OH,Female,Black / African American,1/4/24
+MP5726,12/31/02,Losey,Carla,20 Years,Columbus,Franklin,OH,Female,White / Caucasian,3/30/25
+MP7666,10/15/64,Hundley,John,9 Years,Fairfax,Hamilton,OH,Male,White / Caucasian,8/1/24
+MP7773,5/29/89,Cox,Mary,28 Years,East Cleveland,Cuyahoga,OH,Female,Black / African American,8/1/24
+MP7938,11/23/99,Lattimer,Michael,18 Years,Ridgeway,Hardin,OH,Male,White / Caucasian,9/24/25
+MP4940,10/2/06,Anderson,Kristen,24 Years,Martins Ferry,Belmont,OH,Female,White / Caucasian,3/10/25
+MP6893,10/1/03,Vannatter,Edward,32 Years,Willoughby,Lake,OH,Male,White / Caucasian,1/4/24
+MP7664,7/22/09,Morse,David,54 Years,Ashville,Miami,OH,Male,White / Caucasian,1/5/24
+MP7650,12/7/06,Standberry Sr.,Willie,72 Years,Cleveland,Cuyahoga,OH,Male,Black / African American,3/26/25
+MP10211,12/18/06,Sarter,Kejuan,23 Years,Cleveland,Cuyahoga,OH,Male,Black / African American,1/5/24
+MP10556,7/18/95,Hill,Tammy,24 Years,Holland,Lucas,OH,Female,White / Caucasian,9/16/25
+MP11454,12/8/06,Chapman,Andrew,32 Years,Columbus,Franklin,OH,Male,White / Caucasian,3/30/25
+MP10936,7/15/07,Lohrey,James,59 Years,Willoughby,Lake,OH,Male,White / Caucasian,5/22/25
+MP13524,10/1/11,Kleckner,Christina,24 Years,Cleveland,Cuyahoga,OH,Female,White / Caucasian,1/5/24
+MP12498,12/27/74,Coughlin,Joanne,21 Years,Boardman,Mahoning,OH,Female,White / Caucasian,8/1/24
+MP13609,11/1/05,Parker,Kaliyah,4 Years,Cleveland,Cuyahoga,OH,Female,Black / African American,1/4/24
+MP32862,12/24/95,Sneed,Dawn,27 Years,Dayton,Montgomery,OH,Female,Black / African American,1/12/24
+MP36839,2/5/16,Hall,Arika,22 Years,Canton,Stark,OH,Female,White / Caucasian,5/15/25
+MP33911,9/7/09,Rice,Michelle,37 Years,Springfield,Clark,OH,Female,White / Caucasian,1/12/24
+MP50248,3/2/17,Meadows,Josie,18 Years,Huntsville,Logan,OH,Female,White / Caucasian,9/24/25
+MP41156,1/1/03,Nicol,Jennifer,22 Years,Bexley,Franklin,OH,Female,White / Caucasian,7/1/25
+MP41394,7/15/15,Hudson,Patsy,61 Years,Mansfield,Richland,OH,Female,White / Caucasian,8/1/24
+MP43232,12/12/14,Haft,Albert,52 Years,Columbus,Franklin,OH,Male,White / Caucasian,3/30/25
+MP54265,12/19/18,Zastawnik,Benton,59 Years,Cleveland,Cuyahoga,OH,Male,White / Caucasian,1/12/24
+MP54064,11/2/81,Allen,Lea Anna,33 Years,Cincinnati,Hamilton,OH,Female,White / Caucasian,4/15/21
+MP38000,11/1/89,Ambrose,Donna,34 Years,Cleveland,Cuyahoga,OH,Female,White / Caucasian,8/14/25
+MP62284,1/28/70,Wilson,James,48 Years,Cleveland,Ashtabula,OH,Male,White / Caucasian,5/4/21
+MP64708,9/19/19,Hernandez-Cruz,David,25 Years,Cleveland,Cuyahoga,OH,Male,Hispanic / Latino,10/22/20
+MP61136,9/20/19,Francis,Nathan,34 Years,Cleveland,Cuyahoga,OH,Male,Black / African American,10/28/19
+MP70874,4/15/20,Cannon,Marvin,50 Years,Columbus,Franklin,OH,Male,Black / African American,1/12/24
+MP81513,9/2/20,San,Chu,27 Years,Gahanna,Franklin,OH,Male,Asian,10/15/21
+MP109388,2/16/23,Engler,Dustin,40 Years,Galion,Crawford,OH,Male,White / Caucasian,9/17/24
+MP103549,4/23/85,Wilkerson-Nicely,Delores,40 Years,Port Washington,Tuscarawas,OH,Female,White / Caucasian,6/13/23
+MP93611,3/25/14,Raypole,Michele,40 Years,Chillicothe,Ross,OH,Female,White / Caucasian,11/28/22
+MP89343,11/22/21,Hart,William,34 Years,East Liverpool,Columbiana,OH,Male,White / Caucasian,1/12/24
+MP89685,1/10/74,Pelfrey,Stephanie,37 Years,Chillicothe,Ross,OH,Female,White / Caucasian,7/12/24
+MP116705,9/22/22,Powell,Steven,36 Years,Cincinnati,Hamilton,OH,Male,Black / African American,11/25/24
+MP99668,8/26/91,Eggers,Thomas,36 Years,Delta,Fulton,OH,Male,White / Caucasian,4/4/24
+MP98645,10/11/21,Orona,Tiffany,30 Years,Dayton,Preble,OH,Female,White / Caucasian,5/30/25
+MP100541,10/5/22,Scales,Rakim,32 Years,Columbus,Franklin,OH,Male,Black / African American,8/15/25
+MP119817,1/18/24,Maier,Adam,45 Years,Columbus,Franklin,OH,Male,White / Caucasian,4/30/24
+MP116340,3/6/23,Garcia,Jose,31 Years,Columbus,Franklin,OH,Male,Hispanic / Latino,9/18/25
+MP132340,6/23/20,Allred,Rachel,40 Years,Warren,Trumbull,OH,Female,White / Caucasian,7/2/25
+MP138546,12/9/19,Escobar-Ramirez,David,16 Years,Columbus,Franklin,OH,Male,Hispanic / Latino,2/20/25
+MP135280,5/19/20,Garcia,Cindy,18 Years,Columbus,Franklin,OH,Female,Hispanic / Latino,1/2/25
+MP135389,9/23/97,Robinson,Earl,18 Years,Columbus,Franklin,OH,Male,Black / African American,3/24/25
+MP139261,10/20/22,Pena,Diana,17 Years,Columbus,Franklin,OH,Female,Hispanic / Latino,2/27/25
+MP149076,10/1/23,McKoy,Whitney,29 Years,Pickerington,Fairfield,OH,Female,Black / African American,9/4/25
+MP152639,3/23/12,Lopez-Escobar,Claudia,29 Years,Columbus,Franklin,OH,Female,White / Caucasian,11/30/25
+MP149986,5/3/25,Tharpe,Deshae,34 Years,Youngstown,Mahoning,OH,Male,Black / African American,9/12/25
+MP88365,7/12/19,Arrington,Steven,31 Years,Cleveland,Cuyahoga,OH,Male,Black / African American,12/4/25
+MP151393,11/19/98,Beliveau,Richard,38 Years,New Richmond,Clermont,OH,Male,White / Caucasian,12/4/25
+MP137414,4/10/24,BEAVERS,MONICA,55 Years,Dayton,Montgomery,OH,Female,Black / African American,12/5/25
+MP1334,8/5/02,Archie,Lakeisha,22 Years,Sidney,Shelby,OH,Female,Black / African American,3/4/25
+MP1709,4/1/06,Shaffer,Brian,27 Years,Columbus,Franklin,OH,Male,White / Caucasian,1/12/24
+MP2741,7/24/03,Bingham,Travis,38 Years,Cincinnati,Hamilton,OH,Male,Black / African American,11/7/24
+MP4477,9/8/96,Tinsley,Claudia,24 Years,Toledo,Lucas,OH,Female,White / Caucasian,1/12/24
+MP7941,4/12/06,Klar,Oliver,39 Years,Cleveland,Cuyahoga,OH,Male,White / Caucasian,5/3/19
+MP7950,6/2/98,Holsinger,Angela,30 Years,Portsmouth,Scioto,OH,Female,White / Caucasian,1/12/24
+MP9346,10/10/99,Hanlon,Charles,58 Years,Bloomingdale,Jefferson,OH,Male,White / Caucasian,3/28/25
+MP7953,8/15/95,Borowski,Brenda,35 Years,Swanton,Fulton,OH,Female,White / Caucasian,1/4/24
+MP7928,3/16/82,Wolff-Cappel,Susan,19 Years,Newcomerstown,Tuscarawas,OH,Female,White / Caucasian,2/20/25
+MP7945,12/23/98,Riley,Kimberly,19 Years,Lorain,Lorain,OH,Female,White / Caucasian,3/25/25
+MP6630,4/1/88,Sawyer,Emily,4 Years,Toledo,Lucas,OH,Female,White / Caucasian,3/19/25
+MP8754,9/25/10,Forrest,Nikki,19 Years,Troy,Miami,OH,Female,White / Caucasian,4/9/25
+MP9747,7/24/06,Boware,Neal,21 Years,Akron,Summit,OH,Male,Black / African American,1/5/24
+MP10494,8/14/03,Pringle,Janis,32 Years,Dayton,Montgomery,OH,Female,Black / African American,4/4/25
+MP10479,3/12/94,Pollis,Charlotteal,28 Years,Girard,Trumbull,OH,Female,White / Caucasian,1/4/24
+MP10459,4/18/05,Wilson,Tina,43 Years,Whitehall,Franklin,OH,Female,White / Caucasian,8/1/24
+MP12447,9/30/06,Turner,Shelly,38 Years,Dayton,Montgomery,OH,Female,White / Caucasian,1/12/24
+MP9574,2/1/97,Zirkle,Anna,22 Years,Columbus,Franklin,OH,Female,"Black / African American, White / Caucasian",6/4/25
+MP9657,7/18/96,Cummings,Susan,30 Years,Toledo,Lucas,OH,Female,White / Caucasian,3/31/25
+MP11816,2/2/11,Sexton,Angel,37 Years,Logan,Hocking,OH,Female,White / Caucasian,1/12/24
+MP12147,4/30/03,Sheppard,Michael,35 Years,Perkins Township,Erie,OH,Male,White / Caucasian,1/4/24
+MP20367,2/20/98,Price,Charlene,40 Years,Cleveland,Cuyahoga,OH,Female,Black / African American,1/12/24
+MP10582,12/13/06,Decker,David,32 Years,Waynesburg,Carroll,OH,Male,White / Caucasian,1/5/24
+MP19812,8/1/09,Wilson,Chatham,44 Years,Lorain,Lorain,OH,Female,White / Caucasian,1/5/24
+MP19245,8/10/57,Conner,Charles,37 Years,Lima,Allen,OH,Male,White / Caucasian,8/1/24
+MP17190,5/21/12,Earley,Julie,50 Years,Trotwood,Montgomery,OH,Female,White / Caucasian,1/5/24
+MP27293,10/7/87,Bohanon,Darryl,32 Years,Cincinnati,Hamilton,OH,Male,Black / African American,8/1/24
+MP24710,4/1/14,Mathis,Todd,18 Years,Hamilton,Butler,OH,Male,White / Caucasian,8/5/24
+MP24854,9/1/05,Donnadio,Dean,40 Years,Youngstown,Mahoning,OH,Male,White / Caucasian,4/22/25
+MP24881,7/4/03,Brumley,David,21 Years,Columbus,Franklin,OH,Male,White / Caucasian,3/30/25
+MP23336,7/1/04,Najeway,Cecelia,41 Years,Akron,Summit,OH,Female,White / Caucasian,7/14/22
+MP22191,12/31/99,Roth,Sherrie,49 Years,Orwell,Ashtabula,OH,Female,White / Caucasian,1/4/24
+MP20365,5/8/90,Ford,Elaine,28 Years,Cleveland,Cuyahoga,OH,Female,Black / African American,6/24/25
+MP24849,1/24/98,Horton,James,57 Years,Toledo,Lucas,OH,Male,White / Caucasian,1/4/24
+MP23572,11/1/77,Jenkins,Joanna,23 Years,Oak Hill,Jackson,OH,Female,White / Caucasian,10/28/24
+MP24834,6/19/92,Allen,Jackie,32 Years,Carrollton,Carroll,OH,Male,White / Caucasian,8/1/24
+MP24878,11/1/05,Harris,Howard,66 Years,Lebanon,Warren,OH,Male,White / Caucasian,1/12/24
+MP24871,3/16/05,Grier,Jestin,21 Years,Canton,Stark,OH,Male,Black / African American,8/1/24
+MP25484,6/22/80,Clinger,Claudia,29 Years,Holland,Lucas,OH,Female,White / Caucasian,8/1/24
+MP10586,12/15/95,Markley,Shelly,32 Years,Bristolville,Trumbull,OH,Female,White / Caucasian,4/4/25
+MP10551,11/26/91,Fetzer,Kathern,26 Years,Medina,Medina,OH,Female,White / Caucasian,8/1/24
+MP13818,3/19/11,Lombardi,Jacqueline,21 Years,Warren,Trumbull,OH,Female,White / Caucasian,1/12/24
+MP32359,4/27/89,Bonelli,James,31 Years,Cleveland,Cuyahoga,OH,Male,White / Caucasian,8/1/24
+MP31598,12/5/91,Shope,Harold,30 Years,Nevada,Wyandot,OH,Male,White / Caucasian,8/1/24
+MP38742,5/6/15,Ford,Deklon,< 1 Year,Columbus,Franklin,OH,Male,"Black / African American, White / Caucasian",3/30/25
+MP38896,7/28/85,Wiley,Melvin,47 Years,Hinckley Township,Medina,OH,Male,White / Caucasian,8/1/24
+MP40217,1/1/08,Baran,Abidin,38 Years,Columbus,Franklin,OH,Male,Other,3/30/25
+MP37333,12/18/16,Osborne,Charles,37 Years,Cleveland,Cuyahoga,OH,Male,White / Caucasian,8/1/24
+MP35814,6/16/16,Glossett,Kori,25 Years,Middle Point,Van Wert,OH,Male,White / Caucasian,8/1/24
+MP33045,1/4/16,Eitel,Kayla,25 Years,Sciotoville,Scioto,OH,Female,White / Caucasian,8/1/24
+MP35164,9/21/53,Mastny,Beverly,15 Years,Broadview Hts.,Cuyahoga,OH,Female,White / Caucasian,8/1/24
+MP54318,11/5/18,McClellan,George,70 Years,Milford,Clermont,OH,Male,White / Caucasian,4/7/22
+MP33804,5/12/16,Barfield,Gary,29 Years,Hamilton,Butler,OH,Male,White / Caucasian,8/1/24
+MP33442,7/15/07,Glenn,Diamond,24 Years,Pomeroy,Meigs,OH,Male,Black / African American,1/12/24
+MP55656,1/9/19,Svabik,Seth,31 Years,Youngstown,Mahoning,OH,Male,White / Caucasian,11/22/19
+MP50505,7/1/16,Hayslip,Bernice,75 Years,Latham,Pike,OH,Female,White / Caucasian,8/1/24
+MP51744,12/25/07,Byrd III,Albert,33 Years,Youngstown,Mahoning,OH,Male,Black / African American,1/12/24
+MP27688,9/16/92,Williams,Trinia,18 Years,Columbus,Franklin,OH,Female,Black / African American,3/30/25
+MP29541,7/31/13,Logan,Holly,27 Years,Columbus,Franklin,OH,Female,White / Caucasian,8/5/24
+MP54457,12/7/73,Eubanks,Lester,30 Years,Columbus,Franklin,OH,Male,Black / African American,7/21/25
+MP54982,5/4/37,Baumgardner,Ruth,21 Years,Delaware,Delaware,OH,Female,White / Caucasian,7/5/23
+MP64218,12/25/19,Hopson,Parris,26 Years,Massillon,Stark,OH,Female,Black / African American,8/5/22
+MP64849,6/4/11,Tullius,Anthony,2 Years,Zanesville,Muskingum,OH,Male,White / Caucasian,4/7/22
+MP56604,2/6/19,Fout,Dennis,44 Years,Columbus,Franklin,OH,Male,White / Caucasian,5/30/24
+MP59090,6/29/17,Freeman,Thomas,26 Years,N/A,Summit,OH,Male,White / Caucasian,3/24/20
+MP78484,5/31/74,Robek,John,24 Years,Youngstown,Mahoning,OH,Male,White / Caucasian,4/2/21
+MP68902,9/19/01,Yahnert,Ricky,33 Years,North Bloomfield,Trumbull,OH,Male,White / Caucasian,6/10/20
+MP88012,12/5/21,Hyde,Kara,23 Years,Hamilton,Butler,OH,Female,White / Caucasian,4/14/22
+MP98131,12/6/22,Mills,Thomas,71 Years,Amelia,Clermont,OH,Male,White / Caucasian,7/8/24
+MP95380,12/16/20,Miller,Shawn,36 Years,Columbus,Franklin,OH,Male,White / Caucasian,7/10/25
+MP91731,4/5/22,Ditmer,Kenneth,48 Years,Columbus,Franklin,OH,Male,White / Caucasian,5/12/25
+MP67477,11/21/19,Short,Brooklynn,33 Years,Middletown,Butler,OH,Female,White / Caucasian,7/10/24
+MP97611,12/1/21,Jones,Juliet,19 Years,Marysville,Union,OH,Female,White / Caucasian,11/29/22
+MP107676,1/24/23,Buehl,Michael,50 Years,Ravenna,Portage,OH,Male,White / Caucasian,11/16/25
+MP115751,11/13/12,Holton,Nevaeh,2 Years,Cleveland,Cuyahoga,OH,Female,Black / African American,4/24/25
+MP121910,9/30/23,Mathews,Michael,42 Years,Cleveland,Cuyahoga,OH,Male,White / Caucasian,12/31/24
+MP130157,12/16/23,Lamplot,Joseph,66 Years,Symmes Township,Hamilton,OH,Male,White / Caucasian,10/3/24
+MP142567,1/15/25,Smith,Lamar,40 Years,Youngstown,Mahoning,OH,Male,Black / African American,7/21/25
+MP142415,7/30/22,Gerwe,Amy,40 Years,Blue Ash,Hamilton,OH,Female,White / Caucasian,5/2/25
+MP142944,7/20/24,Shirk,Amanda,37 Years,Columbus,Franklin,OH,Female,White / Caucasian,9/18/25
+MP97066,8/20/22,Phillips Jr.,Thomas,39 Years,Cleveland,Cuyahoga,OH,Male,White / Caucasian,12/4/25
+MP89111,8/1/20,Jackson,Alexis,36 Years,Cleveland,Cuyahoga,OH,Female,Black / African American,12/4/25
+MP1483,8/19/00,Shepherd,Terry,37 Years,Akron,Summit,OH,Male,White / Caucasian,1/4/24
+MP10735,12/11/06,Aylsworth,Zachary,22 Years,West Chester,Butler,OH,Male,White / Caucasian,11/7/24
+MP9732,6/25/03,Erskine,Ronald,48 Years,Greenfield,Highland,OH,Male,White / Caucasian,3/31/25
+MP9633,6/21/79,Davis,Evelyn,16 Years,East Liverpool,Columbiana,OH,Female,White / Caucasian,3/31/25
+MP11231,7/18/96,Mohney,Robert,29 Years,Westerville,Franklin,OH,Male,White / Caucasian,5/1/25
+MP9345,6/20/02,Norah,Ashley,17 Years,Columbus,Franklin,OH,Female,Black / African American,3/30/25
+MP9937,1/31/09,Jones,William,48 Years,Milford,Clermont,OH,Male,White / Caucasian,2/19/25
+MP11739,11/23/06,Allen,Herbert,78 Years,Cleveland,Cuyahoga,OH,Male,White / Caucasian,11/15/18
+MP10921,3/15/93,Hysong,James,20 Years,Sylvania Township,Lucas,OH,Male,White / Caucasian,8/1/24
+MP10491,8/4/81,Anderson,Cynthia,20 Years,Toledo,Lucas,OH,Female,White / Caucasian,4/4/25
+MP10968,6/11/63,Britton,Linda,18 Years,Cambridge,Guernsey,OH,Female,White / Caucasian,5/22/25
+MP8585,1/29/75,Ulrich,Charles,63 Years,Uhrichsville,Tuscarawas,OH,Male,White / Caucasian,8/1/24
+MP6690,3/11/97,Stepp,Aaron,3 Years,Columbus,Franklin,OH,Male,White / Caucasian,1/4/24
+MP11369,7/1/09,Joseph,Samantha,43 Years,Youngstown,Mahoning,OH,Female,Black / African American,5/22/25
+MP12085,1/25/02,Ping,Donald,42 Years,Dayton,Montgomery,OH,Male,White / Caucasian,5/27/25
+MP12784,7/30/79,Koziatek,John,21 Years,Cincinnati,Hamilton,OH,Male,White / Caucasian,11/7/24
+MP22477,5/31/86,Franks,Theodore,19 Years,Middletown,Butler,OH,Male,White / Caucasian,4/16/25
+MP22510,10/25/94,Neace,Madalene,39 Years,East Sparta,Stark,OH,Female,White / Caucasian,1/4/24
+MP24837,4/6/92,Vincent,Dale,34 Years,Cambridge,Guernsey,OH,Male,White / Caucasian,8/1/24
+MP24869,5/28/89,Marcum,Hilda,43 Years,Portsmouth,Scioto,OH,Female,White / Caucasian,8/1/24
+MP23304,8/9/13,Romine,Amanda,30 Years,Springfield,Clark,OH,Female,White / Caucasian,8/5/24
+MP24883,8/17/94,Sullivan,Sheila,40 Years,Columbus,Franklin,OH,Female,White / Caucasian,3/30/25
+MP24278,11/29/98,Reed,John,20 Years,Zanesville,Muskingum,OH,Male,White / Caucasian,1/4/24
+MP20297,3/1/04,Shepherd,Cordell,27 Years,Cleveland,Cuyahoga,OH,Male,Black / African American,3/11/25
+MP18023,3/29/12,Frayer,Ricky,46 Years,Columbus,Franklin,OH,Male,White / Caucasian,3/30/25
+MP25060,1/30/85,Frame,Barbara,38 Years,Zanesville,Muskingum,OH,Female,White / Caucasian,8/1/24
+MP24861,2/16/82,Robinson,Helen,57 Years,Zanesville,Muskingum,OH,Female,White / Caucasian,8/1/24
+MP4561,6/26/87,Carmack,Cynthia,15 Years,Batavia,Clermont,OH,Female,White / Caucasian,8/1/24
+MP4021,8/24/51,Potts,Beverly,10 Years,Cleveland,Cuyahoga,OH,Female,White / Caucasian,8/1/24
+MP5681,6/7/01,Hill,Tracy,24 Years,Rogers,Columbiana,OH,Female,White / Caucasian,3/11/25
+MP32060,7/27/15,Lawson,Timothy,57 Years,Cleveland,Cuyahoga,OH,Male,White / Caucasian,8/1/24
+MP37077,12/26/16,Corbin,Crystal,48 Years,Stockport,Morgan,OH,Female,White / Caucasian,8/1/24
+MP36994,2/1/02,Cunningham,Lynn,24 Years,Brunswick,Medina,OH,Female,White / Caucasian,5/18/23
+MP26259,5/13/14,Boone,Robert,61 Years,Cincinnati,Hamilton,OH,Male,White / Caucasian,11/7/24
+MP41073,9/10/17,Martin,Stephen,42 Years,Bainbridge,Ross,OH,Male,White / Caucasian,8/1/24
+MP38287,6/16/81,Wise,Warren,26 Years,Dover,Tuscarawas,OH,Male,White / Caucasian,8/1/24
+MP40213,2/19/17,Miller,Melinda,47 Years,Middletown,Butler,OH,Female,White / Caucasian,8/1/24
+MP20436,1/1/78,Lynch,Paula,21 Years,Sandusky,Erie,OH,Female,White / Caucasian,11/10/20
+MP20467,11/14/11,Warner,Gary,56 Years,Mansfield,Richland,OH,Male,White / Caucasian,1/12/24
+MP1665,6/29/01,Adkins,Patricia,29 Years,Marysville,Union,OH,Female,White / Caucasian,7/27/25
+MP2956,12/29/89,Spencer,Karen,17 Years,Miami Township,Clermont,OH,Female,White / Caucasian,8/1/24
+MP2744,8/26/98,Douglas,Dorothy,42 Years,Cincinnati,Hamilton,OH,Female,Black / African American,11/7/24
+MP3221,5/5/87,Vonderheide,Ronald,23 Years,Cincinnati,Clermont,OH,Male,White / Caucasian,8/1/24
+MP20376,5/6/08,Bereford,Carla,38 Years,Cleveland,Cuyahoga,OH,Female,Black / African American,6/27/19
+MP20669,4/26/89,Collazo,Jose,85 Years,Lorain,Lorain,OH,Male,Hispanic / Latino,8/1/24
+MP23120,8/23/13,Baul,Bobby,32 Years,Cleveland,Cuyahoga,OH,Male,Black / African American,8/5/24
+MP43341,11/29/17,Perri,Joseph,28 Years,Columbus,Franklin,OH,Male,White / Caucasian,3/30/25
+MP40534,8/20/17,Slinger,Christine,27 Years,Massillon,Stark,OH,Female,White / Caucasian,9/8/25
+MP42534,10/27/16,McMichael Jr.,Richard,54 Years,Mentor,Lake,OH,Male,White / Caucasian,4/24/25
+MP63940,7/31/19,Mason,Kayla,23 Years,Toledo,Lucas,OH,Female,"Black / African American, White / Caucasian",1/15/20
+MP64487,3/19/19,Omar,Ahmed,38 Years,Columbus,Franklin,OH,Male,Black / African American,1/12/24
+MP64282,1/24/17,Canterbury,Darrel,26 Years,Columbus,Franklin,OH,Male,White / Caucasian,7/10/23
+MP58636,6/1/10,Bork,Ronald,62 Years,Maumee,Lucas,OH,Male,White / Caucasian,7/26/22
+MP64492,10/30/17,Silcox,Gabriella,18 Years,Mansfield,Richland,OH,Female,White / Caucasian,11/15/25
+MP58210,1/18/15,Bickham,Donivian,22 Years,Columbus,Franklin,OH,Male,Black / African American,1/5/24
+MP52718,4/3/94,Sloan,Mary,44 Years,Rome,Lawrence,OH,Female,White / Caucasian,8/1/24
+MP70137,4/18/20,Sarki,Dhan,36 Years,Columbus,Franklin,OH,Male,"White / Caucasian, Other",4/7/22
+MP68533,5/7/19,Coffey,Paige,27 Years,Cleveland,Cuyahoga,OH,Female,Black / African American,10/23/25
+MP72641,1/10/82,Anderson,Harry,40 Years,West Milton,Miami,OH,Male,White / Caucasian,12/6/22
+MP76180,7/14/69,Cerimele,Frank,21 Years,Youngstown,Mahoning,OH,Male,White / Caucasian,5/20/24
+MP85096,8/31/21,Cooper,Sacoya,33 Years,Columbus,Franklin,OH,Female,Black / African American,4/4/24
+MP104486,11/1/96,Tolbert,Carmen,36 Years,Cincinnati,Hamilton,OH,Female,Black / African American,4/24/25
+MP99662,1/14/23,Cranston,Jeremy,34 Years,Wellsville,Columbiana,OH,Male,White / Caucasian,6/16/25
+MP111235,10/1/23,Oliver,Joseph,17 Years,Portsmouth,Scioto,OH,Male,White / Caucasian,11/7/23
+MP113255,11/24/18,Pettus,Shauntez,26 Years,Cincinnati,Hamilton,OH,Male,Black / African American,11/7/24
+MP111582,6/20/23,Steele,Cody,31 Years,Brunswick,Medina,OH,Male,White / Caucasian,9/17/24
+MP113555,8/1/23,Fultz,Jeffery,73 Years,Cambridge,Guernsey,OH,Male,Black / African American,5/20/25
+MP91218,1/15/22,Burhns,Loretta,58 Years,Columbus,Franklin,OH,Female,White / Caucasian,1/12/24
+MP127580,1/1/97,Henderson,Gary,39 Years,Akron,Summit,OH,Male,Black / African American,9/11/24
+MP97916,9/1/18,O'Neal,Byron,65 Years,Columbus,Franklin,OH,Male,Black / African American,4/27/23
+MP133519,10/1/23,Baugh,Cameron,21 Years,Springfield,Clark,OH,Male,White / Caucasian,7/23/25
+MP134791,8/30/23,May,Abraham,31 Years,Shadyside,Belmont,OH,Male,White / Caucasian,12/17/24
+MP131791,6/29/24,Letcher,Emma,21 Years,Cincinnati,Clermont,OH,Female,White / Caucasian,5/23/25
+MP137310,3/28/99,McCoy,Reba,32 Years,Columbus,Franklin,OH,Female,White / Caucasian,4/21/25
+MP139693,2/21/70,Stees,Gene,38 Years,Columbus,Franklin,OH,Male,White / Caucasian,5/21/25
+MP144949,5/12/25,Garcia-Aguilar,Roberto,16 Years,Scott,Paulding,OH,Male,Hispanic / Latino,9/18/25
+MP38124,6/16/16,Whitmer,Amber,30 Years,Springfield,Clark,OH,Female,White / Caucasian,12/2/25
+MP147373,9/1/24,Mason,Tiffany,40 Years,Youngstown,Mahoning,OH,Female,White / Caucasian,7/14/25
+MP105503,8/28/87,Lambert,Gordon,32 Years,Orient,Pickaway,OH,Male,White / Caucasian,1/29/25
+MP29617,5/5/15,Ford,Brittany,28 Years,Columbus,Franklin,OH,Female,White / Caucasian,8/1/24
+MP20517,1/20/06,Jaafar,Mohamed-Ali,3 Years,Toledo,Lucas,OH,Male,White / Caucasian,6/21/18
+MP41280,11/21/79,Cox,Dwaun,23 Years,Columbus,Franklin,OH,Male,Black / African American,8/1/24
+MP41838,12/31/72,Dyer,Betty,42 Years,Mansfield,Richland,OH,Female,White / Caucasian,8/1/24
+MP42853,2/2/18,Wright,Joshua,30 Years,Cincinnati,Hamilton,OH,Male,"White / Caucasian, Black / African American",11/25/24
+MP43314,4/1/81,Maynard,Vicki,26 Years,Union,Union,OH,Female,White / Caucasian,8/1/24
+MP41835,11/3/85,Banyots,Richard,19 Years,Girard,Mahoning,OH,Male,White / Caucasian,4/15/25
+MP52929,1/24/18,Dungey,Le-Shay,19 Years,Columbus,Franklin,OH,Female,Black / African American,8/1/24
+MP52100,3/26/10,Kustra,Darla,56 Years,Elyria Township,Lorain,OH,Female,White / Caucasian,9/20/18
+MP53238,1/20/78,Johnson,Willie,26 Years,Akron,Summit,OH,Male,Black / African American,8/1/24
+MP55442,3/19/18,Harper,Danielle,25 Years,Warren,Trumbull,OH,Female,Black / African American,9/9/24
+MP53811,4/13/99,Taylor,Robert,41 Years,Norwood,Hamilton,OH,Male,White / Caucasian,1/12/24
+MP61209,2/1/76,Sharp,Donald,18 Years,West Portsmouth,Scioto,OH,Male,White / Caucasian,3/2/22
+MP20779,5/1/73,Cross,Hazel,26 Years,Toledo,Lucas,OH,Female,White / Caucasian,8/1/24
+MP21909,6/3/10,Wright,Raechelle,30 Years,Lockbourne,Franklin,OH,Female,White / Caucasian,1/12/24
+MP24887,8/13/12,Hafer,Janete,55 Years,Cincinnati,Hamilton,OH,Female,Black / African American,11/7/24
+MP24888,1/30/12,McMurray,John,64 Years,Cincinnati,Hamilton,OH,Male,White / Caucasian,11/7/24
+MP24851,12/28/91,Blanche,Charles,39 Years,Youngstown,Mahoning,OH,Male,White / Caucasian,1/4/24
+MP24863,7/14/83,Koch,Charles,19 Years,Ravenna,Portage,OH,Male,White / Caucasian,8/1/24
+MP24856,7/18/12,Rankin,Ronald,68 Years,Youngstown,Mahoning,OH,Male,Black / African American,1/12/24
+MP24333,3/12/82,Banks,Roy,49 Years,Batavia,Clermont,OH,Male,White / Caucasian,8/1/24
+MP26057,10/30/94,Redding,Marianne,37 Years,Columbus,Franklin,OH,Female,White / Caucasian,3/30/25
+MP24832,8/24/89,Piert,Beverly,39 Years,Jefferson,Ashtabula,OH,Female,White / Caucasian,3/4/25
+MP26736,9/29/14,Stanton,Timothy,40 Years,Cincinnati,Hamilton,OH,Male,Black / African American,11/7/24
+MP24867,5/2/12,Stephens,Chase,40 Years,Ottawa,Putnam,OH,Male,White / Caucasian,7/20/23
+MP24843,4/5/85,Womack,Clifton,28 Years,Eastlake,Lake,OH,Male,White / Caucasian,8/1/24
+MP25540,5/3/14,Trego,Charlotte,27 Years,Chillicothe,Ross,OH,Female,White / Caucasian,8/5/24
+MP24857,7/13/95,Griffin,Harold,22 Years,Marion,Marion,OH,Male,Black / African American,1/4/24
+MP24850,7/25/97,Helm,Myron,22 Years,Toledo,Lucas,OH,Male,Black / African American,1/4/24
+MP24717,4/28/03,Walker,Kimberly,43 Years,Columbus,Franklin,OH,Female,Black / African American,9/16/25
+MP24873,4/5/09,Jones,Venessa,45 Years,Warren,Trumbull,OH,Female,Black / African American,1/5/24
+MP24875,8/29/94,Loader,Ruth,79 Years,Port Washington,Tuscarawas,OH,Female,White / Caucasian,1/4/24
+MP24844,1/8/00,Johnson,Minnie,37 Years,Ironton,Lawrence,OH,Female,Black / African American,1/4/24
+MP19498,3/11/70,Rexroad,Charlotte,34 Years,Canton,Stark,OH,Female,White / Caucasian,8/1/24
+MP19961,4/3/13,Lancaster,Megan,25 Years,Wheelersburg,Scioto,OH,Female,White / Caucasian,7/1/25
+MP17579,10/13/94,Gall,George,26 Years,Dayton,Montgomery,OH,Male,White / Caucasian,5/1/25
+MP19000,8/22/07,Elliott,Paul,50 Years,Alliance,Stark,OH,Male,White / Caucasian,1/5/24
+MP18089,8/10/91,White,Donnell,14 Years,Ashtabula,Ashtabula,OH,Male,Black / African American,4/9/25
+MP27717,10/3/14,Lemons,Wanda,37 Years,Chillicothe,Ross,OH,Female,White / Caucasian,8/5/24
+MP28490,4/10/15,Williamson,Tina,29 Years,Toledo,Lucas,OH,Female,White / Caucasian,1/5/24
+MP29293,2/10/83,Bennett,Perry,56 Years,Columbus,Franklin,OH,Male,White / Caucasian,7/18/23
+MP35135,6/1/15,Cunningham,Brittany,29 Years,Walhonding,Coshocton,OH,Female,White / Caucasian,8/1/24
+MP35361,9/1/16,Flack,Amber,30 Years,Middletown,Butler,OH,Female,White / Caucasian,8/1/24
+MP36174,8/13/09,Adkins,Charity,29 Years,Toledo,Lucas,OH,Female,White / Caucasian,1/12/24
+MP35183,6/28/68,Byrd,Furman,18 Years,Cleveland,Cuyahoga,OH,Male,Black / African American,6/17/25
+MP34517,6/10/16,Rapp,Rosemary,68 Years,Salineville,Carroll,OH,Female,White / Caucasian,8/1/24
+MP33479,7/4/77,Groff,Billie,26 Years,Hubbard,Trumbull,OH,Female,White / Caucasian,8/1/24
+MP24338,3/30/81,Rini,Charles,41 Years,Moreland Hills,Cuyahoga,OH,Male,White / Caucasian,8/1/24
+MP24874,7/1/94,Smith,Andray,25 Years,Warren,Trumbull,OH,Male,Black / African American,1/12/24
+MP26248,4/10/14,Bowen,Jayme,22 Years,Columbus,Franklin,OH,Female,White / Caucasian,3/30/25
+MP33902,4/3/16,Baber,Jautoun,31 Years,Cincinnati,Hamilton,OH,Male,Black / African American,8/1/24
+MP1091,11/18/99,Apgar,Sharon,33 Years,Newtonsville,Clermont,OH,Female,White / Caucasian,2/27/25
+MP1306,8/8/94,Farrell,Shaylene,18 Years,Piqua,Miami,OH,Female,White / Caucasian,4/9/25
+MP1372,8/28/96,Culberson,Clarissa,22 Years,Blanchester,Clinton,OH,Female,White / Caucasian,1/4/24
+MP1304,11/22/90,Johnson,Elaine,41 Years,Parma,Cuyahoga,OH,Female,White / Caucasian,8/1/24
+MP2312,8/8/91,Collins,Jasmine,< 1 Year,Akron,Summit,OH,Female,Black / African American,8/1/24
+MP1741,10/9/02,Morris,Noel,43 Years,Cleveland,Cuyahoga,OH,Male,White / Caucasian,1/4/24
+MP9645,2/7/10,Blevins,Melissa,30 Years,Portsmouth,Scioto,OH,Female,White / Caucasian,3/31/25
+MP7927,1/13/00,Donoghue,Delores,46 Years,Youngstown,Mahoning,OH,Female,White / Caucasian,4/22/25
+MP7937,6/1/03,Neuhaus,Shane,35 Years,Hillsboro,Highland,OH,Male,White / Caucasian,3/24/25
+MP7670,10/15/64,McQueary,James,9 Years,Fairfax,Hamilton,OH,Male,White / Caucasian,8/1/24
+MP7930,3/28/02,Mazilu,Daniel,23 Years,Silver Lake,Summit,OH,Male,White / Caucasian,3/24/25
+MP7931,2/27/98,McLaughlin,James,57 Years,Elyria,Lorain,OH,Male,White / Caucasian,3/24/25
+MP7926,3/13/88,Hilbert,Scott,18 Years,Milford,Clermont,OH,Male,White / Caucasian,7/1/25
+MP6802,6/2/09,White,Glenna,16 Years,Alliance,Stark,OH,Female,White / Caucasian,3/20/25
+MP6853,8/17/06,Main,Sheila,37 Years,Pemberville,Wood,OH,Female,White / Caucasian,9/19/25
+MP6808,5/25/94,Williams,Jamel,3 Years,Toledo,Lucas,OH,Male,"White / Caucasian, Black / African American",3/21/25
+MP10949,2/14/88,Bowdre,Linda,39 Years,Cincinnati,Hamilton,OH,Female,White / Caucasian,5/22/25
+MP10427,3/29/97,Aldrich,Tonia,38 Years,Elyria,Lorain,OH,Female,White / Caucasian,1/4/24
+MP4455,2/7/99,Baker,Erica,9 Years,Kettering,Montgomery,OH,Female,White / Caucasian,3/7/25
+MP4309,3/6/04,Hodge,Michael,39 Years,Cleveland,Cuyahoga,OH,Male,White / Caucasian,4/9/25
+MP4645,8/8/77,Regler,Yvonne,17 Years,Fairview Park,Cuyahoga,OH,Female,White / Caucasian,3/10/25
+MP6277,3/24/01,Lake,Adam,17 Years,Hilliard,Franklin,OH,Male,White / Caucasian,3/30/25
+MP12778,5/27/01,Perkins,Jonni,39 Years,Cleveland,Cuyahoga,OH,Female,White / Caucasian,1/4/24
+MP14033,4/1/65,Franks,Elizabeth,17 Years,Toledo,Lucas,OH,Female,White / Caucasian,8/1/24
+MP12499,12/11/93,Frasure,Linda,46 Years,Tiffin,Seneca,OH,Female,White / Caucasian,4/9/25
+MP13112,11/23/08,Mathenay,Harold,58 Years,Cleveland,Cuyahoga,OH,Male,Black / African American,1/5/24
+MP63546,9/6/19,Erhardt,Connie,60 Years,Elmwood Place,Hamilton,OH,Female,White / Caucasian,12/10/21
+MP77828,1/27/20,Hura Jr.,John,36 Years,Youngstown,Mahoning,OH,Male,White / Caucasian,10/2/25
+MP76535,12/4/20,Lattimore,Nylo,3 Years,Cincinnati,Hamilton,OH,Male,Black / African American,11/7/24
+MP72419,7/9/20,Willis II,Raymont,42 Years,Waverly,Pike,OH,Male,Black / African American,1/12/24
+MP76297,2/28/18,Hamilton,Sarah,29 Years,Grove City,Franklin,OH,Female,White / Caucasian,7/21/21
+MP105837,5/6/21,Mounts,Bret,27 Years,Coshocton,Coshocton,OH,Male,White / Caucasian,9/30/24
+MP102430,6/26/90,Forkapa,Stevan,43 Years,Brunswick,Medina,OH,Male,White / Caucasian,9/23/24
+MP111314,1/14/23,Flohre,Jack,30 Years,Dayton,Montgomery,OH,Male,White / Caucasian,2/24/25
+MP109163,9/29/21,David,Randolph,66 Years,Cleveland,Cuyahoga,OH,Male,White / Caucasian,7/31/24
+MP113438,1/1/50,Frost,Clara,20 Years,Cleveland,Cuyahoga,OH,Female,White / Caucasian,9/2/25
+MP86184,7/21/21,Howard,Chad,49 Years,Greenhills,Hamilton,OH,Male,White / Caucasian,1/17/24
+MP130347,4/16/23,Webster,Carl,37 Years,Cincinnati,Hamilton,OH,Male,White / Caucasian,3/27/25
+MP133236,6/24/23,Brown,Glendon,54 Years,Cincinnati,Hamilton,OH,Male,Black / African American,12/10/24
+MP131861,8/14/24,Davila Alvaladejo,Hector,35 Years,Youngstown,Trumbull,OH,Male,Hispanic / Latino,10/24/24
+MP135561,5/1/24,Ziegler,Nathanial,30 Years,Brewster,Stark,OH,Male,White / Caucasian,10/14/25
+MP147035,10/9/76,Beauchamp,Gary,16 Years,Canton,Stark,OH,Male,White / Caucasian,10/8/25
+MP144586,1/8/25,Fluker,Mayeen,< 1 Year,Canton,Stark,OH,Female,Black / African American,6/9/25
+MP152380,4/1/25,Milligan,Cynthia,31 Years,Cincinnati,Hamilton,OH,Female,White / Caucasian,11/26/25
+MP29779,1/1/05,Kellam,Brenda,47 Years,Cincinnati,Hamilton,OH,Female,White / Caucasian,11/7/24
+MP151327,2/23/46,Celli,Lola,24 Years,Columbus,Franklin,OH,Female,White / Caucasian,12/4/25
+MP130345,8/9/24,Schwarz,Scott,60 Years,Liberty Township,Butler,OH,Male,White / Caucasian,3/20/25
