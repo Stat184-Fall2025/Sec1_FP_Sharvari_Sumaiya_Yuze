@@ -1,3 +1,5 @@
+#library(tidyverse)
+missing <- read_csv("MissingPersons.csv")
 #Simple summary tables 
 
 # 1) Sort by sex
@@ -138,7 +140,7 @@ missing_table_3 <- missing %>%
     fill = list(`Number of Missing People` = 0)
   ) %>%
   arrange(DLC, 
-          `Race / Ethnicity`
+          `Race / Ethnicity`,
           `Biological Sex`,
           age_group
   ) %>%
