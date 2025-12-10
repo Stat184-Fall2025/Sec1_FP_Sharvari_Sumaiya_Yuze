@@ -1,6 +1,6 @@
-#library(tidyverse)
-#library(kableExtra)
-#library(janitor)
+# library(tidyverse)
+library(kableExtra)
+library(janitor)
 
 # Biological Sex Inference ----
 ## Biological Sex Frequency Bar Graph ----
@@ -22,7 +22,9 @@ female_demographic <- missing_table_3 |>
   summarize(
     total_missing = sum(`Number of Missing People`, na.rm = FALSE),
     .groups = "drop"
-  )
+  ) |>
+  ### drop all data that are one
+  filter(total_missing > 1)
 
 ### Same process for males
 male_demographic <- missing_table_3 |>
@@ -32,10 +34,21 @@ male_demographic <- missing_table_3 |>
   summarize(
     total_missing = sum(`Number of Missing People`, na.rm = FALSE),
     .groups = "drop"
-  )
+  ) |>
+  ### drop all data that are one
+  filter(total_missing > 1)
 
 ## Visualization for demographic for sex ----
-
+ggplot(
+  data = female_demographic,
+  mapping = aes(
+    x = `Race / Ethnicity`,
+    y = total_missing,
+    fill = `Race / Ethnicity`
+  )
+) +
+  geom_bar(stat = "identity") +
+  theme(legend.position = "none")
 
 ## Biological sex focused demographic breakdown table ----
 two_way_table_female <- missing_table_3 |>
@@ -56,3 +69,5 @@ two_way_table_male <- missing_table_3 |>
   adorn_percentages("row") |>
   adorn_pct_formatting(digits = 1) |>
   adorn_ns(position = "front")
+
+View(two_way_table_male)
