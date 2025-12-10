@@ -1,11 +1,6 @@
-<<<<<<< HEAD
 #library(tidyverse)
-missing <- read_csv("MissingPersons.csv")
-=======
 MissingPersons <- read_csv("MissingPersons.csv")
-library(tidyverse)
 
->>>>>>> 9de707893689f0ffc190131330a36fa3388f6ff2
 #Simple summary tables 
 
 # 1) Sort by sex
