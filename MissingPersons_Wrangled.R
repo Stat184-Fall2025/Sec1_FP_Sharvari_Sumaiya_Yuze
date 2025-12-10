@@ -148,18 +148,10 @@ missing_table_3 <- MissingPersons %>%
     age_group,
     fill = list(`Number of Missing People` = 0)
   ) %>%
-<<<<<<< HEAD
   arrange(DLC, 
           `Race / Ethnicity`,
           `Biological Sex`,
           age_group
-=======
-  arrange(
-    DLC,
-    `Race / Ethnicity`,
-    `Biological Sex`,
-    age_group
->>>>>>> 9de707893689f0ffc190131330a36fa3388f6ff2
   ) %>%
   filter(`Number of Missing People` > 0)
 
