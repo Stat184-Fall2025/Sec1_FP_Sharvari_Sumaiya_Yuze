@@ -1,6 +1,7 @@
 library(tidyverse)
 library(maps)
 
+#Filter by County
 county_summary <- MissingPersons %>%
   filter(State %in% c("PA", "OH")) %>%   
   group_by(State, County) %>%
@@ -9,12 +10,14 @@ county_summary <- MissingPersons %>%
     .groups = "drop"
   )
 
+#Extract states and counties data
 states   <- map_data("state")
 counties <- map_data("county")
 
 ohpa_states   <- states   %>% filter(region %in% c("pennsylvania", "ohio"))
 ohpa_counties <- counties %>% filter(region %in% c("pennsylvania", "ohio"))
 
+#Attach every point of polygon to missing persons numbers by county
 county_summary_for_join <- county_summary %>%
   mutate(
     region    = recode(State,
@@ -23,10 +26,12 @@ county_summary_for_join <- county_summary %>%
     subregion = tolower(County)
   )
 
+#Redefine data by region (state) and subregion (county) -> for working with map package
 ohpa_map_df <- ohpa_counties %>%
   left_join(county_summary_for_join,
             by = c("region", "subregion"))
 
+#Plot missing persons data by county 
 ditch_the_axes <- theme(
   axis.text  = element_blank(),
   axis.line  = element_blank(),
