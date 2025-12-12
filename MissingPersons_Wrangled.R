@@ -85,6 +85,8 @@ View(missing_table_1)
 
 
 # 2) Sort by gender, race/ethnicity and age group by location, drop missing counts
+MissingPersons <- read_csv("MissingPersons.csv")
+library(tidyverse)
 missing_table_2 <- MissingPersons %>%
   mutate(
     age_num = parse_number(`Missing Age`),
@@ -118,9 +120,6 @@ missing_table_2 <- MissingPersons %>%
   arrange(State, County, City)
 
 View(missing_table_2)
-
-
-
 
 # 3) Sort by gender, race/ethnicity and age group by date of last contact, drop missing counts
 missing_table_3 <- MissingPersons %>%

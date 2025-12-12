@@ -10,6 +10,8 @@ county_summary <- MissingPersons %>%
     .groups = "drop"
   )
 
+View(county_summary)
+
 #Extract states and counties data
 states   <- map_data("state")
 counties <- map_data("county")
@@ -66,4 +68,45 @@ elbow_room +
   labs(
     title = "Number of Missing Persons per County\nPennsylvania & Ohio",
     fill  = "Missing\npeople"
+  )
+
+
+#BarChart for State vs State Comparison 
+
+library(tidyverse)
+
+state_summary <- MissingPersons %>% 
+  filter(State %in% c("PA", "OH")) %>% 
+  count(State, name = "NumberMissing")
+
+ggplot(state_summary, aes(x=State, y=NumberMissing, fill=State)) +
+  geom_col(width=0.6)+
+  theme_minimal()+
+  labs(
+    title = "Total Number of Missing Persons by State",
+    subtitle = "Pennsylvania vs Ohio",
+    x = "State",
+    y = "Number of Missing Persons"
+  )+
+  guides(fill="none")
+
+
+#Dotplot for Counties Comparison 
+
+state_summary <- MissingPersons %>% 
+  filter(State %in% c("PA", "OH")) %>% 
+  count(State, County, name = "NumberMissing")
+
+ggplot(county_summary,
+       aes(x=reorder(County, NumberMissing,),
+           y = NumberMissing,
+           color = State))+
+  geom_point(size=4, alpha=0.8)+
+  coord_flip()+
+  theme_minimal()+
+  labs(
+    title="Missing Persons Cases by County",
+    subtitle="Pennsylvania vs Ohio",
+    x = "County",
+    y = "Number of Missing Persons"
   )
