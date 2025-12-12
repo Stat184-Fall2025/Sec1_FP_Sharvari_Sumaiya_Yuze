@@ -1,11 +1,8 @@
-<<<<<<< HEAD
 #library(tidyverse)
 missing <- read_csv("MissingPersons.csv")
-=======
-MissingPersons <- read_csv("MissingPersons.csv")
-library(tidyverse)
 
->>>>>>> 9de707893689f0ffc190131330a36fa3388f6ff2
+MissingPersons <- read_csv("MissingPersons.csv")
+
 #Simple summary tables 
 
 # 1) Sort by sex
@@ -140,32 +137,31 @@ missing_table_3 <- MissingPersons %>%
     )
   ) %>%
   count(
-    DLC,
+    `DLC`,
     `Race / Ethnicity`,
     `Biological Sex`,
     age_group,
     name = "Number of Missing People"
   ) %>%
   complete(
-    DLC,
+    `DLC`,
     `Race / Ethnicity`,
     `Biological Sex`,
     age_group,
     fill = list(`Number of Missing People` = 0)
   ) %>%
-<<<<<<< HEAD
   arrange(DLC, 
           `Race / Ethnicity`,
           `Biological Sex`,
-          age_group
-=======
+          age_group) %>%
   arrange(
-    DLC,
+    `DLC`,
     `Race / Ethnicity`,
     `Biological Sex`,
     age_group
->>>>>>> 9de707893689f0ffc190131330a36fa3388f6ff2
+
   ) %>%
   filter(`Number of Missing People` > 0)
 
 View(missing_table_3)
+
