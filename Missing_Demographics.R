@@ -75,6 +75,9 @@ ggplot(race_state,
 
 
 
-
+### find the single demographic group with the highest missing count
+missing_table_1 %>%
+  arrange(desc(`Number of Missing People`)) %>%
+  slice(1)
 
 
