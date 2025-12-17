@@ -71,3 +71,19 @@ two_way_table_male <- missing_table_3 |>
   adorn_ns(position = "front")
 
 View(two_way_table_male)
+
+
+
+eda_df <- missing_table_3
+
+### total missing counts per age group in each state.
+ggplot(
+  data = eda_df,
+  aes(x = age_group, y = `Number of Missing People`, fill = State)
+) +
+  geom_bar(stat = "identity", position = "dodge") +
+  labs(
+    title = "Age Distribution of Missing People (PA vs OH)",
+    x = "Age Group",
+    y = "Number of Missing People"
+  )
