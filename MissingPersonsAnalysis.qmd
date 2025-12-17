@@ -1,0 +1,98 @@
+---
+title: "Missing Persons in Pennsylvania and Ohio (1969–2024)"
+subtitle: "Exploratory Data Analysis of Demographic, Temporal, and Spatial Patterns"
+author: "Sharvari, Sumaiya, Yuze"
+date: "Dec. 15, 2025"
+date-modified: now
+format: 
+  pdf: 
+    toc: false
+    number-sections: true
+    fig-align: center
+    cap-location: top
+  execute:
+    echo: false
+    warning: false
+  bibliography: references.bib
+  csl: apa7.csl
+      
+editor: visual
+---
+
+# Introduction
+
+## Motivation and Context
+
+-   why missing-person case patterns matter
+
+-   why we decided to focus on PA and OH
+
+-   what the reader should expect from this report
+
+## Research Question
+
+Do missing persons cases in Pennsylvania and Ohio from 1969 to 2024 exhibit over-representation across specific demographic groups, time spans, and spatial contexts?
+
+# Data Provenance
+
+-   where the data came from (NamUS)
+
+-   who maintains it
+
+-   how we obtained it
+
+-   how/where its stored in the repo
+
+-   what a "case" means (1 row = 1 missing person case)
+
+# Ethical frameworks: FAIR and CARE
+
+## Fair Principles
+
+-   Findable: how the dataset is located/accessed
+
+-   Accessible: download process, permissions/creating an account to download data
+
+-   Interoperable: file type (CSV)
+
+-   Reusable: documentation, licensing/terms, and what limits reuse
+
+## Care Principles
+
+-   Collective Benefit:
+
+-   Authority to Control:
+
+-   Responsibility:
+
+-   Ethics:
+
+# Data and Attributes
+
+## Dataset Overview
+
+-   number of rows and key columns
+
+-   time span
+
+## Attributes used in analysis
+
+### Original attributes (from dataset):
+
+-   state
+
+-   county
+
+-   city
+
+-   biological sex
+
+-   race/ ethnicity
+
+-   missing age
+
+-   DLC
+
+### Derived attributes
+
+-   age group, etc
