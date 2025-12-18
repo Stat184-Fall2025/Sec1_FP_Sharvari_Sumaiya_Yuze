@@ -1,4 +1,4 @@
-# Project Title
+# Missing Persons Analysis 
 
 Do missing persons cases in Pennsylvania and Ohio from 1969 to 2024 exhibit overrepresentation across specific demographic groups, timespans and spatial contexts?
 
