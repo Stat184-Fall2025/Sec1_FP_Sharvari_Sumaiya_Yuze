@@ -134,6 +134,7 @@ From the original listed attributes of the database, there were a couple of attr
 
 # Data Wrangling
 
+Since there were many factors to consider in our data analysis, the data wrangling process consisted of wrangling 
 simple summary tables.
 
 Here are different ways our data is wrangled:
@@ -308,6 +309,47 @@ head(missing_table_3)
 
 # Demographic Breakdown
 
+Age:
+```{r}
+#| tbl-lab: age-range-table
+
+eda_df <- missingPersons |>
+  # create numeric age + age groups
+  mutate(
+    age_num = readr::parse_number(`Missing Age`),
+    age_num = if_else(is.na(age_num), 0, age_num),
+    age_group = case_when(
+      age_num < 20 ~ "below 20",
+      age_num < 40 ~ "between 20-40",
+      age_num < 60 ~ "between 40-60",
+      TRUE         ~ "above 60"
+    )
+  )
+
+head(eda_df)
+```
+
+Age distribution by state
+
+```{r}
+### age distribution by state (PA vs OH)
+age_state <- eda_df |>
+  count(State, age_group, name = "Number of Missing People")
+
+ggplot(
+  data = age_state,
+  aes(x = age_group,
+      y = `Number of Missing People`,
+      fill = State)
+) +
+  geom_bar(stat = "identity", position = "dodge") +
+  labs(
+    title = "Age Distribution of Missing People (PA vs OH)",
+    x = "Age Group",
+    y = "Number of Missing People"
+  )
+```
+
 Biological Sex:
 
 ```{r}
@@ -328,29 +370,60 @@ ggplot(
   geom_bar(stat = "identity")
 ```
 
-Race/Ethnicity: 
+Biological sex distribution by state
+
 ```{r}
+### sex distribution by state 
+sex_state <- eda_df |>
+  count(State, `Biological Sex`, name = "Number of Missing People")
+
+ggplot(
+  data = sex_state,
+  aes(x = `Biological Sex`,
+      y = `Number of Missing People`,
+      fill = State)
+) +
+  geom_bar(stat = "identity", position = "dodge") +
+  labs(
+    title = "Biological Sex Distribution (PA vs OH)",
+    x = "Biological Sex",
+    y = "Number of Missing People"
+  )
+
+```
+Race/Ethnicity: 
+
+race distribution by state - lolipop plot
+```{r}
+### race distribution by state - lolipop plot
+race_state <- eda_df |>
+  count(State, `Race / Ethnicity`, name = "Number of Missing People")
+
+ggplot(race_state,
+       aes(x = reorder(`Race / Ethnicity`, `Number of Missing People`),
+           y = `Number of Missing People`,
+           color = State)) +
+  geom_segment(aes(xend = `Race / Ethnicity`,
+                   y = 0,
+                   yend = `Number of Missing People`),
+               linewidth = 0.8) +
+  geom_point(size = 3) +
+  coord_flip() +
+  labs(
+    title = "Race / Ethnicity Distribution (PA vs OH)",
+    x = "Race / Ethnicity",
+    y = "Number of Missing People"
+  )
 
 ```
 
-Age:
+finding the single demographic group with the highest missing count.
+
 ```{r}
-#| tbl-lab: age-range-table
-
-eda_df <- missingPersons |>
-  # create numeric age + age groups
-  mutate(
-    age_num = readr::parse_number(`Missing Age`),
-    age_num = if_else(is.na(age_num), 0, age_num),
-    age_group = case_when(
-      age_num < 20 ~ "below 20",
-      age_num < 40 ~ "between 20-40",
-      age_num < 60 ~ "between 40-60",
-      TRUE         ~ "above 60"
-    )
-  )
-
-head(eda_df)
+### find the single demographic group with the highest missing count
+missing_table_1 %>%
+  arrange(desc(`Number of Missing People`)) %>%
+  slice(1)
 ```
 
 # Time-span Breakdown
