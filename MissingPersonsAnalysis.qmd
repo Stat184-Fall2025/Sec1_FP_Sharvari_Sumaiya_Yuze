@@ -46,6 +46,8 @@ To obtain the data-set, we needed to register for an account for NamUS. Afterwar
 In our repository, the data will be found under "MissingPersons.csv". The dataframe we worked with in data wrangling and visualization will follow a similar naming scheme "missingPersons".
 
 ```{r}
+library(tidyverse)
+
 missingPersons <- read.csv("MissingPersons.csv")
 
 # preview the data frame
@@ -132,9 +134,211 @@ From the original listed attributes of the database, there were a couple of attr
 
 # Data Wrangling
 
+simple summary tables.
+```{r}
+#library(tidyverse)
+
+missingPersons <- read_csv("MissingPersons.csv")
+
+#Simple summary tables 
+
+# 1) Sort by sex
+gender_table <- missingPersons %>%
+  count(`Biological Sex`, name = "Number of Missing People")
+
+head(gender_table)
+
+
+# 2) Sort by race/ethnicity
+race_table <- missingPersons %>%
+  count(`Race / Ethnicity`, name = "Number of Missing People")
+
+head(race_table)
+
+
+# 3) Sort by age group
+age_table <- missingPersons %>%
+  mutate(
+    age_num = parse_number(`Missing Age`),
+    age_num = if_else(is.na(age_num), 0, age_num),
+    age_group = case_when(
+      age_num < 20 ~ "below 20",
+      age_num < 40 ~ "between 20-40",
+      age_num < 60 ~ "between 40-60",
+      TRUE         ~ "above 60"
+    )
+  ) %>%
+  count(age_group, name = "Number of Missing People")
+
+head(age_table)
+
+
+# 4) Sort by location 
+location_table <- missingPersons %>%
+  count(State, County, City, name = "Number of Missing People") %>%
+  arrange(State, County, City)
+
+head(location_table)
+
+
+# 5) Sort by date of last contact
+date_table <- missingPersons %>%
+  count(DLC, name = "Number of Missing People") %>%
+  arrange(DLC)
+
+head(date_table)
+```
+
+Complex summary tables.
+
+```{r}
+# Complex summary tables 
+
+# 1) Sort by gender, race/ethnicity and age group
+missing_table_1 <- missingPersons %>%
+  mutate(
+    age_num = readr::parse_number(`Missing Age`),
+    age_num = if_else(is.na(age_num), 0, age_num),
+    age_group = case_when(
+      age_num < 20 ~ "below 20",
+      age_num < 40 ~ "between 20-40",
+      age_num < 60 ~ "between 40-60",
+      TRUE         ~ "above 60"
+    )
+  ) %>%
+  count(
+    `Race / Ethnicity`, 
+    `Biological Sex`, 
+    age_group, 
+    name = "Number of Missing People") %>%
+  complete(
+    `Race / Ethnicity`,
+    `Biological Sex`,
+    age_group,
+    fill = list("Number of Missing People" = 0)
+  )
+
+head(missing_table_1)
+
+
+# 2) Sort by gender, race/ethnicity and age group by location, drop missing counts
+missing_table_2 <- missingPersons %>%
+  mutate(
+    age_num = parse_number(`Missing Age`),
+    age_num = if_else(is.na(age_num), 0, age_num),
+    age_group = case_when(
+      age_num < 20 ~ "below 20",
+      age_num < 40 ~ "between 20-40",
+      age_num < 60 ~ "between 40-60",
+      TRUE         ~ "above 60"
+    )
+  ) %>%
+  count(
+    State, 
+    County, 
+    City, 
+    `Race / Ethnicity`, 
+    `Biological Sex`, 
+    age_group, name = "Number of Missing People") %>%
+  complete(
+    State, 
+    County, 
+    City, 
+    `Race / Ethnicity`, 
+    `Biological Sex`, 
+    age_group,
+    fill = list("Number of Missing People" = 0)) %>%
+  arrange(State, County, City) %>%
+  filter("Number of Missing People" > 0)  
+
+head(missing_table_2)
+
+
+# 3) Sort by gender, race/ethnicity and age group by date of last contact, drop missing counts
+missing_table_3 <- missingPersons %>%
+  mutate(
+    age_num = parse_number(`Missing Age`),
+    age_num = if_else(is.na(age_num), 0, age_num),
+    age_group = case_when(
+      age_num < 20 ~ "below 20",
+      age_num < 40 ~ "between 20-40",
+      age_num < 60 ~ "between 40-60",
+      TRUE         ~ "above 60"
+    )
+  ) %>%
+  count(
+    DLC,
+    `Race / Ethnicity`,
+    `Biological Sex`,
+    age_group,
+    name = "Number of Missing People"
+  ) %>%
+  complete(
+    DLC,
+    `Race / Ethnicity`,
+    `Biological Sex`,
+    age_group,
+    fill = list(`Number of Missing People` = 0)
+  ) %>%
+  arrange(
+    DLC, 
+    `Race / Ethnicity`,
+    `Biological Sex`,
+    age_group
+  ) %>%
+  filter(`Number of Missing People` > 0)
+
+head(missing_table_3)
+```
+
 # Geographic Breakdown
 
 # Demographic Breakdown
+
+Biological Sex:
+
+```{r}
+#| fig-lab: gender-table
+
+library(tidyverse)
+
+# Biological Sex Inference ----
+## Biological Sex Frequency Bar Graph ----
+ggplot(
+  data = gender_table,
+  mapping = aes(
+    x = `Biological Sex`,
+    y = `Number of Missing People`,
+    fill = `Biological Sex`
+  )
+) +
+  geom_bar(stat = "identity")
+```
+
+Race/Ethnicity: 
+```{r}
+
+```
+
+Age:
+```{r}
+#| tbl-lab: age-range-table
+
+eda_df <- missingPersons |>
+  # create numeric age + age groups
+  mutate(
+    age_num = readr::parse_number(`Missing Age`),
+    age_num = if_else(is.na(age_num), 0, age_num),
+    age_group = case_when(
+      age_num < 20 ~ "below 20",
+      age_num < 40 ~ "between 20-40",
+      age_num < 60 ~ "between 40-60",
+      TRUE         ~ "above 60"
+    )
+  )
+
+head(eda_df)
+```
 
 # Time-span Breakdown
 
@@ -249,7 +453,7 @@ ggplot() +
   scale_color_discrete(palette = c("steelblue", "darkred")) +
   labs(
     title = "Missing People Per Year In PA and OH",
-    x = "Years (1938-2025)",
+    x = "Years (1928-2025)",
     y = "Number of Missing People Cases"
   )
 ```
@@ -260,7 +464,6 @@ As a more focused indication of the similar growth and high variable of the time
 
 ```{r}
 #| fig-lab: time-series-difference
-#| fig-cap: "The average difference of PA missing count minus OH missing count is slightly positive/just above 1. Meaning that on average, PA has a slightly higher missing count during this timeframe."
 
 # Create df with difference in missing persons (PA - OH)----
 difference_time_series <- time_sensitive_missing |>
@@ -287,3 +490,5 @@ ggplot(
     y = "Difference (PA - OH)"
   )
 ```
+
+The average difference of PA missing count minus OH missing count is slightly positive/just above 1. Meaning that on average, PA has a slightly higher missing count during this time frame.
