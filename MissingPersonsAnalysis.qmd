@@ -10,9 +10,9 @@ format:
     number-sections: true
     fig-align: center
     cap-location: top
-  execute:
-    echo: false
-    warning: false
+execute:
+  echo: false
+  warning: false
   bibliography: references.bib
   csl: apa7.csl
       
@@ -23,61 +23,82 @@ editor: visual
 
 ## Motivation and Context
 
--   why missing-person case patterns matter
+For our group project, we had decided to look into missing persons data. Certain areas that were especially interesting to us were the potential for any pattern in reported missing persons cases, in addition, any potential relevance to our geographical area.
 
--   why we decided to focus on PA and OH
+From these interests, we were motivated to look at missing persons data in Pennsylvania and Ohio, which are very close geographically. For accurate reporting, we also focused on finding data from credible and updated sources.
 
--   what the reader should expect from this report
+This report will offer exploratory data analysis of a medium sized data set of reported missing persons data with visualization and inferences/insight on any patterns.
 
 ## Research Question
+
+For clarity and focus, we generalized our research question to such:
 
 Do missing persons cases in Pennsylvania and Ohio from 1969 to 2024 exhibit over-representation across specific demographic groups, time spans, and spatial contexts?
 
 # Data Provenance
 
--   where the data came from (NamUS)
+We decided to use missing persons data from NamUS (the National Missing and Unidentified Persons System), which has accurate and well-maintained information and is made fairly easily accessible to the public. We trust NamUS because they're a federal, government supported system and have worked directly with other trustworthy entities in law enforcement.
 
--   who maintains it
+NamUS's data is contributed by law enforcement agencies, medical examiners, and authorized forensic professionals, and is maintained by the NIJ (the National Institute of Justice).
 
--   how we obtained it
+To obtain the data-set, we needed to register for an account for NamUS. Afterwards, a csv can be downloaded from the website after filtering through down to a manageable size.
 
--   how/where its stored in the repo
+In our repository, the data will be found under "MissingPersons.csv". The dataframe we worked with in data wrangling and visualization will follow a similar naming scheme "missingPersons".
 
--   what a "case" means (1 row = 1 missing person case)
+```{r}
+missingPersons <- read.csv("MissingPersons.csv")
+
+# preview the data frame
+head(missingPersons)
+```
+
+As seen from the 6 example entries displayed above, NamUS offered 11 different attribute underneath each case (where each case is an individual reported case of missing persons). These attributes contain: case number, date of last contact, legal last name, legal first name, missing age, city, county, state, biological sex, race/ethnicity, and the date modifed.
 
 # Ethical frameworks: FAIR and CARE
 
 ## Fair Principles
 
--   Findable: how the dataset is located/accessed
+-   Findable: 
 
--   Accessible: download process, permissions/creating an account to download data
+This project clearly states the source of the data (NamUS) and correctly cites the source in order to increase findability for the viewers of this report.
 
--   Interoperable: file type (CSV)
+-   Accessible:
 
--   Reusable: documentation, licensing/terms, and what limits reuse
+Our data offered by NamUS was downloaded after we have met the terms of NamUS (registering for an account). The only data we will be using are ones that are publically accessible on the NamUS website that can be visited by anyone.
+
+-   Interoperable:
+
+The developers of this project are able to operate with the data using the csv file located in the repository. The data is then moved to a data frame stored in Rdata and cleaned into different data frames for the convience of EDA.
+
+-   Reusable:
+
+The coding process of this project has been meaningfully commented and documented for the goal of easy comprehension for viewers and reader of this project.
 
 ## Care Principles
 
 -   Collective Benefit:
 
+The purpose of this project is for the collective benefit of the public. Designed to generate and offer visualizations that may strength public understanding of missing persons cases from the perspective of demographic, over time, and geographically.
+
 -   Authority to Control:
+
+The data comes from proper law enforcement and other proper sources, which obtained consent and permission from related individuals of the missing persons to register the case and enter the information into the database. This analysis also acknowledges that all data were premitted by the right authorities and respects these authorities.
 
 -   Responsibility:
 
+All responsibilities of this project falls upon the 3 developers/authors. Responsibilities include any misconduct or misrepresentation of the data and the corresponding analysis.
+
 -   Ethics:
+
+Interpretation and presentation of results consider contextual factors like population growth and demographic disparities. Throughout the process of creating this project, developers try to avoiding deterministic or causal claims where evidence is insufficient and ensuring that findings are framed in ways that do not reinforce harmful stereotypes.
 
 # Data and Attributes
 
-## Dataset Overview
+The analysis uses nearly all attributes of the data, with the except of case number (which is simply just used as an identifier), and date modified (where we could not find a useful interruptation related to our research question),
 
--   number of rows and key columns
+## Original attributes (from dataset):
 
--   time span
-
-## Attributes used in analysis
-
-### Original attributes (from dataset):
+Geogrpahic attributes:
 
 -   state
 
@@ -85,14 +106,184 @@ Do missing persons cases in Pennsylvania and Ohio from 1969 to 2024 exhibit over
 
 -   city
 
+Demographic attributes:
+
 -   biological sex
 
 -   race/ ethnicity
 
 -   missing age
 
+Time-span attributes:
+
 -   DLC
 
-### Derived attributes
+## Derived attributes
 
--   age group, etc
+From the original listed attributes of the database, there were a couple of attributes that we need to derive for further analysis. In order to adequately categorize the missing cases by the range of the missing ages, we had to create a new attribute representing the age group of the missing age (categorized as a demographic attribute). The ranges we have decided upon are:
+
+- below 20
+
+- between 20-40
+
+- between 40-60
+
+- above 60
+
+# Data Wrangling
+
+# Geographic Breakdown
+
+# Demographic Breakdown
+
+# Time-span Breakdown
+
+For time-series analysis, we had an issue of not being able to graph the DLC as a variable on a graph due it's data type being just strings of characters. Fortunately, R has a built in Date data type that can extract date information from a given format of strings. 
+
+Unfortunately, there were issues that we ran into due to incomplete information. Dates were formatted like so in the original data frame:
+  dd/mm/yy
+
+Since the year has section has incomplete information, a year like 1960 is written as /60, which the as.Date function in R recognized as 2060. This problem is then sorted out by updating all years past the current year (2025) to its intended year.
+
+Otherwise, the final dataframe should compose of information with the year missing as a date data type and the count of missing persons in each recorded year. Therefore, each case in the dataframe time_sensitive_missing is a recorded year in the data.
+
+```{r}
+#| tbl-lab: time-wrangled-table
+
+library(tidyverse)
+
+# Data wrangling ----
+## Creating a time sensitive data frame via dates
+time_sensitive_missing <- missingPersons |>
+  mutate(date = as.Date(DLC, format = "%m/%d/%y")) |>
+## Summarize the data frame where each case is a year and an attribute is missing count
+### cut() rounds every date down to year-01-01; all dates in a year will have that label
+  mutate(year = as.Date(cut(date, breaks = "year"))) |>
+  group_by(year, State) |>
+  summarize(missing_count = n(),
+            .groups = "drop")
+
+## Pythonian caveman function that solves problems with as.Date()
+### Function takes parameter dates (column of a data frame)
+futureDeleter <- function(dates) {
+  strings = as.character(dates)
+  for (i in seq_along(strings)) {
+    d = strings[i]
+    if (substr(d, 1, 2) == "20" && as.numeric(substr(d, 3, 4)) > 25) {
+      new_str = paste0("19", substr(d, 3, 10))
+      strings[i] = new_str
+    }
+  }
+  return(as.Date(strings))
+}
+
+## Make sure there's no data from the future
+  time_sensitive_missing$year <- futureDeleter(time_sensitive_missing$year)
+  
+# Viewing the wrangled data frame in qmd file
+head(time_sensitive_missing)
+```
+
+After data wrangling, a time-series graph of missing count in PA over time was created:
+
+```{r}
+#| fig-lab: time-series-PA
+
+# Time Series for PA ----
+## Create PA only time series df
+time_sensitive_missing |>
+  filter( State == "PA") |>
+    ggplot(
+      mapping = aes(
+        x = year,
+        y = missing_count
+      )
+    ) +
+    geom_line() +
+    labs(
+      title = "Missing People Per Year In PA",
+      x = "Years (1928-2025)", 
+      y = "Number of Missing People Cases"
+    )
+```
+
+The process is then repeated for OH:
+
+```{r}
+#| fig-lab: time-series-OH
+
+# Time Series for OH ----
+## Create OH only time series df
+time_sensitive_missing |>
+  filter(State == "OH") |>
+    ggplot(
+      mapping = aes(
+        x = year,
+        y = missing_count
+      )
+    ) +
+    geom_line() +
+    labs(
+      title = "Missing People Per Year In OH",
+      x = "Years (1928-2025)",
+      y = "Number of Missing People Cases"
+    )
+```
+
+For closer inspection and comparison of both graphs, the 2 are then plotted against each other:
+
+```{r}
+#| fig-lab: time-series-both
+
+# Time Series for both ----
+ggplot() +
+  geom_line(
+    data = time_sensitive_missing,
+    mapping = aes(
+      x = year,
+      y = missing_count,
+      color = State,
+      linetype = State
+    )
+  ) +
+  scale_color_discrete(palette = c("steelblue", "darkred")) +
+  labs(
+    title = "Missing People Per Year In PA and OH",
+    x = "Years (1938-2025)",
+    y = "Number of Missing People Cases"
+  )
+```
+
+From @time-series-both, we can see that the trend of growth in missing persons count are very similar between the two very geographically close states. Along with the high level of variable we can observe from the line, it is important to note that there are also little difference in the population of these states (OH: ~11.9 million, PA: ~13 million).
+
+As a more focused indication of the similar growth and high variable of the time-series analysis, one more graph was completed showing the year-to-year difference in the missing count (PA - OH):
+
+```{r}
+#| fig-lab: time-series-difference
+#| fig-cap: "The average difference of PA missing count minus OH missing count is slightly positive/just above 1. Meaning that on average, PA has a slightly higher missing count during this timeframe."
+
+# Create df with difference in missing persons (PA - OH)----
+difference_time_series <- time_sensitive_missing |>
+  pivot_wider(names_from = State, values_from = missing_count) |>
+## Change all NA Values to 0
+  mutate(PA = replace_na(PA, 0)) |>
+  mutate(OH = replace_na(OH, 0)) |> 
+  mutate(difference = PA - OH)
+
+# Time Series for difference (PA - OH) ----
+ggplot(
+  data = difference_time_series,
+  mapping = aes(
+    x = year,
+    y = difference
+  )
+) +
+  geom_point() +
+  geom_line(linetype = "dotted") +
+  geom_hline(yintercept = 0, color = "darkred", linetype = "longdash") +
+  labs(
+    title = "Missing Cases Difference (PA - OH)",
+    x = "Years (1928-2025)",
+    y = "Difference (PA - OH)"
+  )
+```
