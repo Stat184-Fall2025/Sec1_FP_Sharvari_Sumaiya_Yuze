@@ -13,11 +13,33 @@ format:
 execute:
   echo: false
   warning: false
-  bibliography: references.bib
-  csl: apa7.csl
+  
+bibliography: references.bib
+csl: apa7.csl
       
 editor: visual
 ---
+
+```{r}
+# Setup Code
+library(tidyverse)
+MissingPersons <- read_csv("MissingPersons.csv")
+
+eda_df <- MissingPersons |>
+  # keep only PA + OH
+  filter(State %in% c("PA", "OH")) |>
+  # create numeric age + age groups
+  mutate(
+    age_num = readr::parse_number(`Missing Age`),
+    age_num = if_else(is.na(age_num), 0, age_num),
+    age_group = case_when(
+      age_num < 20 ~ "below 20",
+      age_num < 40 ~ "between 20-40",
+      age_num < 60 ~ "between 40-60",
+      TRUE         ~ "above 60"
+    )
+  )
+```
 
 # Introduction
 
@@ -58,7 +80,7 @@ As seen from the 6 example entries displayed above, NamUS offered 11 different a
 
 ## Fair Principles
 
--   Findable: 
+-   Findable:
 
 This project clearly states the source of the data (NamUS) and correctly cites the source in order to increase findability for the viewers of this report.
 
@@ -94,11 +116,11 @@ Interpretation and presentation of results consider contextual factors like popu
 
 # Data and Attributes
 
-The analysis uses nearly all attributes of the data, with the except of case number (which is simply just used as an identifier), and date modified (where we could not find a useful interruptation related to our research question),
+The analysis uses nearly all attributes of the data, with the except of case number (which is simply just used as an identifier), and date modified (where we could not find a useful interpretation related to our research question),
 
 ## Original attributes (from dataset):
 
-Geogrpahic attributes:
+Geographic attributes:
 
 -   state
 
@@ -116,19 +138,19 @@ Demographic attributes:
 
 Time-span attributes:
 
--   DLC
+-   DLC (Date of Last Contact)
 
 ## Derived attributes
 
 From the original listed attributes of the database, there were a couple of attributes that we need to derive for further analysis. In order to adequately categorize the missing cases by the range of the missing ages, we had to create a new attribute representing the age group of the missing age (categorized as a demographic attribute). The ranges we have decided upon are:
 
-- below 20
+-   below 20
 
-- between 20-40
+-   between 20-40
 
-- between 40-60
+-   between 40-60
 
-- above 60
+-   above 60
 
 # Data Wrangling
 
@@ -136,12 +158,81 @@ From the original listed attributes of the database, there were a couple of attr
 
 # Demographic Breakdown
 
+This section examines whether missing-person cases in Pennsylvania and Ohio show demographic concentration by biological sex, race/ethnicity, and age group. These summaries are descriptive and are intended to identify patterns rather than imply causality.
+
+### Biological Sex (PA vs OH)
+
+Figure
+
+```{r}
+library(tidyverse)
+
+### age distribution by state (PA vs OH)
+age_state <- eda_df |>
+  count(State, age_group, name = "Number of Missing People")
+
+ggplot(
+  data = age_state,
+  aes(x = age_group,
+      y = `Number of Missing People`,
+      fill = State)
+) +
+  geom_bar(stat = "identity", position = "dodge") +
+  labs(
+    title = "Age Distribution of Missing People (PA vs OH)",
+    x = "Age Group",
+    y = "Number of Missing People"
+  )
+
+```
+
+### Race/ Ethnicity
+
+```{r}
+library(ggplot2)
+
+ggplot(race_state,
+       aes(x = reorder(`Race / Ethnicity`, `Number of Missing People`),
+           y = `Number of Missing People`,
+           color = State)) +
+  geom_segment(aes(xend = `Race / Ethnicity`,
+                   y = 0,
+                   yend = `Number of Missing People`),
+               linewidth = 0.8) +
+  geom_point(size = 3) +
+  coord_flip() +
+  labs(
+    title = "Race / Ethnicity Distribution (PA vs OH)",
+    x = "Race / Ethnicity",
+    y = "Number of Missing People"
+  )
+```
+
+### Age Group (PA vs OH)
+
+```{r}
+age_state <- eda_df |>
+  count(State, age_group, name = "Number of Missing People")
+
+ggplot(
+  data = age_state,
+  aes(x = age_group,
+      y = `Number of Missing People`,
+      fill = State)
+) +
+  geom_bar(stat = "identity", position = "dodge") +
+  labs(
+    title = "Age Distribution of Missing People (PA vs OH)",
+    x = "Age Group",
+    y = "Number of Missing People"
+  )
+```
+
 # Time-span Breakdown
 
-For time-series analysis, we had an issue of not being able to graph the DLC as a variable on a graph due it's data type being just strings of characters. Fortunately, R has a built in Date data type that can extract date information from a given format of strings. 
+For time-series analysis, we had an issue of not being able to graph the DLC as a variable on a graph due it's data type being just strings of characters. Fortunately, R has a built in Date data type that can extract date information from a given format of strings.
 
-Unfortunately, there were issues that we ran into due to incomplete information. Dates were formatted like so in the original data frame:
-  dd/mm/yy
+Unfortunately, there were issues that we ran into due to incomplete information. Dates were formatted like so in the original data frame: dd/mm/yy
 
 Since the year has section has incomplete information, a year like 1960 is written as /60, which the as.Date function in R recognized as 2060. This problem is then sorted out by updating all years past the current year (2025) to its intended year.
 
@@ -254,7 +345,7 @@ ggplot() +
   )
 ```
 
-From @time-series-both, we can see that the trend of growth in missing persons count are very similar between the two very geographically close states. Along with the high level of variable we can observe from the line, it is important to note that there are also little difference in the population of these states (OH: ~11.9 million, PA: ~13 million).
+From @time-series-both, we can see that the trend of growth in missing persons count are very similar between the two very geographically close states. Along with the high level of variable we can observe from the line, it is important to note that there are also little difference in the population of these states (OH: \~11.9 million, PA: \~13 million).
 
 As a more focused indication of the similar growth and high variable of the time-series analysis, one more graph was completed showing the year-to-year difference in the missing count (PA - OH):
 
@@ -286,4 +377,9 @@ ggplot(
     x = "Years (1928-2025)",
     y = "Difference (PA - OH)"
   )
+```
+
+# Code Appendix
+
+```{)}
 ```
