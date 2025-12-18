@@ -135,7 +135,18 @@ From the original listed attributes of the database, there were a couple of attr
 # Data Wrangling
 
 simple summary tables.
+
+Here are different ways our data is wrangled:
+
+- Each case is defined by a combination of sex, race, and age group  
+
+- Each case is organized by state, county and city 
+
+- Each case is associated with a specific date of last contact 
+
 ```{r}
+#| fig-lab: simple-summary-tbl
+
 #library(tidyverse)
 
 missingPersons <- read_csv("MissingPersons.csv")
@@ -192,6 +203,8 @@ head(date_table)
 Complex summary tables.
 
 ```{r}
+#| tbl-lab: complex-summary-tbl
+
 # Complex summary tables 
 
 # 1) Sort by gender, race/ethnicity and age group
