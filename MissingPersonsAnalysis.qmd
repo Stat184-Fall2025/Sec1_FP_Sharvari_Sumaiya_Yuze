@@ -306,6 +306,99 @@ head(missing_table_3)
 ```
 
 # Geographic Breakdown
+For the spatial breakdown of our explanatory data analysis, we chose to examine missing persons cases at the county level rather than at the state or city level. Counties provide a useful middle scale for a geographic analysis as they are more spatially detailed than state-level summaries, while avoiding many of the inconsistencies and missing values in city-level reporting. Moreover, city boundaries are difficult to represent spatially, as cities are typically mapped as point locations (such as maps package used for this visualization). In contrast, counties are defined by clear polygon boundaries, allowing missing persons counts to be spatially contained and visualized more clearly. In addition, counties are commonly used units in U.S. demographic and public policy analysis, making them well-suited for spatial comparison.
+
+To generate the county-level map, we used the maps package in R, which provides built-in polygon boundary data for U.S. states and counties; the structure of this workflow was adapted from the county mapping approach demonstrated in Eriq Ande’s *Making Maps with R* tutorial, allowing missing persons counts to be joined directly to county polygons for clear spatial visualization. Using county boundaries for Pennsylvania and Ohio, we aggregated the total number of reported missing persons cases per county from 1969 to 2024. These counts were then visualized using a choropleth map, where darker shading represents counties with higher numbers of reported cases.
+
+The resulting map reveals that missing persons cases are not evenly distributed across space. Instead, there is clear spatial variation, with certain counties exhibiting noticeably higher counts than others. In both Pennsylvania and Ohio, counties containing or adjacent to metropolitan areas (e.g. Philadelphia) tend to display higher numbers of reported cases. This spatial clustering suggests a form of over-representation in specific geographic contexts.
+
+However, it is important to interpret this pattern cautiously. Higher case counts at the county level do not necessarily indicate a higher underlying risk of disappearance. Instead, these patterns may reflect:
+
+-   Larger population sizes in urban counties
+
+-   Greater reporting capacity and law enforcement infrastructure
+
+-   Higher likelihood that cases are formally documented and entered into national systems such as NamUS
+
+Conversely, counties with very low counts may not reflect fewer incidents, but rather underreporting or differences in administrative capacity.
+
+Overall, this county-level spatial analysis helps identify **where reported missing persons cases are concentrated**, highlighting geographic unevenness across Pennsylvania and Ohio. While the map does not support causal conclusions, it provides important spatial context that complements the demographic and time-series analyses in this report and helps frame future work, such as population-normalized rates or urban–rural comparisons.
+
+```{r}
+#| fig-lab: heat-map
+
+#Load packages
+library(tidyverse)
+library(maps)
+
+#Filter by County
+county_summary <- missingPersons %>%
+  filter(State %in% c("PA", "OH")) %>%   
+  group_by(State, County) %>%
+  summarise(
+    NumberMissing = n(),                 
+    .groups = "drop"
+  )
+
+#Extract states and counties data
+states   <- map_data("state")
+counties <- map_data("county")
+
+ohpa_states   <- states   %>% filter(region %in% c("pennsylvania", "ohio"))
+ohpa_counties <- counties %>% filter(region %in% c("pennsylvania", "ohio"))
+
+#Attach every point of polygon to missing persons numbers by county
+county_summary_for_join <- county_summary %>%
+  mutate(
+    region    = recode(State,
+                       "PA" = "pennsylvania",
+                       "OH" = "ohio"),
+    subregion = tolower(County)
+  )
+
+#Redefine data by region (state) and subregion (county) -> for working with map package
+ohpa_map_df <- ohpa_counties %>%
+  left_join(county_summary_for_join,
+            by = c("region", "subregion"))
+
+#Plot missing persons data by county 
+ditch_the_axes <- theme(
+  axis.text  = element_blank(),
+  axis.line  = element_blank(),
+  axis.ticks = element_blank(),
+  panel.border = element_blank(),
+  panel.grid   = element_blank(),
+  axis.title   = element_blank()
+)
+
+ohpa_base <- ggplot(ohpa_states,
+                    aes(x = long, y = lat, group = group)) +
+  coord_fixed(1.3) +
+  geom_polygon(color = "black", fill = "gray80")
+
+elbow_room <- ohpa_base +
+  geom_polygon(
+    data  = ohpa_map_df,
+    aes(fill = NumberMissing),          
+    color = "white"
+  ) +
+  geom_polygon(color = "black", fill = NA) +
+  theme_bw() +
+  ditch_the_axes
+
+elbow_room +
+  scale_fill_gradient(
+    trans = "log10",
+    low = "lightblue",
+    high = "darkblue",
+    na.value = "grey90"
+  ) +
+  labs(
+    title = "Number of Missing Persons per County\nPennsylvania & Ohio",
+    fill  = "Missing\npeople"
+  )
+
+```
 
 # Demographic Breakdown
 
@@ -578,3 +671,14 @@ ggplot(
 ```
 
 The average difference of PA missing count minus OH missing count is slightly positive/just above 1. Meaning that on average, PA has a slightly higher missing count during this time frame.
+
+\newpage
+
+# Code Appendix
+```{r}
+#| label: codeAppend
+#| ref.label: !expr knitr::all_labels()
+#| echo: true
+#| eval: false
+
+```
