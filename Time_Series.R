@@ -6,7 +6,8 @@ time_sensitive_missing <- missingPersons |>
 ### cut() rounds every date down to year-01-01; all dates in a year will have that label
   mutate(year = as.Date(cut(date, breaks = "year"))) |>
   group_by(year, State) |>
-  summarize(missing_count = n())
+  summarize(missing_count = n(),
+            .groups = "drop")
 ## Make sure there's no data from the future
   time_sensitive_missing$year <- futureDeleter(time_sensitive_missing$year)
 
@@ -79,6 +80,7 @@ ggplot() +
 # Create df with difference in missing persons (PA - OH)----
 difference_time_series <- time_sensitive_missing |>
   pivot_wider(names_from = State, values_from = missing_count) |>
+## Change all NA Values to 0
   mutate(PA = replace_na(PA, 0)) |>
   mutate(OH = replace_na(OH, 0)) |> 
   mutate(difference = PA - OH)

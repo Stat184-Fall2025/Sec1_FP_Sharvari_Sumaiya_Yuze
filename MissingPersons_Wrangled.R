@@ -1,26 +1,28 @@
 #library(tidyverse)
-missing <- read_csv("MissingPersons.csv")
-
+<<<<<<< HEAD
 MissingPersons <- read_csv("MissingPersons.csv")
 
+=======
+missing <- read_csv("MissingPersons.csv")
+>>>>>>> parent of d01bfe7 (R files updates)
 #Simple summary tables 
 
 # 1) Sort by sex
-gender_table <- MissingPersons %>%
+gender_table <- missing %>%
   count(`Biological Sex`, name = "Number of Missing People")
 
 View(gender_table)
 
 
 # 2) Sort by race/ethnicity
-race_table <- MissingPersons %>%
+race_table <- missing %>%
   count(`Race / Ethnicity`, name = "Number of Missing People")
 
 View(race_table)
 
 
 # 3) Sort by age group
-age_table <- MissingPersons %>%
+age_table <- missing %>%
   mutate(
     age_num = parse_number(`Missing Age`),
     age_num = if_else(is.na(age_num), 0, age_num),
@@ -37,7 +39,7 @@ View(age_table)
 
 
 # 4) Sort by location 
-location_table <- MissingPersons %>%
+location_table <- missing %>%
   count(State, County, City, name = "Number of Missing People") %>%
   arrange(State, County, City)
 
@@ -45,7 +47,7 @@ View(location_table)
 
 
 # 5) Sort by date of last contact
-date_table <- MissingPersons %>%
+date_table <- missing %>%
   count(DLC, name = "Number of Missing People") %>%
   arrange(DLC)
 
@@ -54,11 +56,10 @@ View(date_table)
 
 #-----------------------------------------------------------------------------------------------------
 
-
 # Complex summary tables 
 
 # 1) Sort by gender, race/ethnicity and age group
-missing_table_1 <- MissingPersons %>%
+missing_table_1 <- missing %>%
   mutate(
     age_num = readr::parse_number(`Missing Age`),
     age_num = if_else(is.na(age_num), 0, age_num),
@@ -84,10 +85,8 @@ missing_table_1 <- MissingPersons %>%
 View(missing_table_1)
 
 
-
-
 # 2) Sort by gender, race/ethnicity and age group by location, drop missing counts
-missing_table_2 <- MissingPersons %>%
+missing_table_2 <- missing %>%
   mutate(
     age_num = parse_number(`Missing Age`),
     age_num = if_else(is.na(age_num), 0, age_num),
@@ -99,33 +98,28 @@ missing_table_2 <- MissingPersons %>%
     )
   ) %>%
   count(
-    State,
-    County,
-    City,
-    `Race / Ethnicity`,
-    `Biological Sex`,
-    age_group,
-    name = "Number of Missing People"
-  ) %>%
+    State, 
+    County, 
+    City, 
+    `Race / Ethnicity`, 
+    `Biological Sex`, 
+    age_group, name = "Number of Missing People") %>%
   complete(
-    State,
-    County,
-    City,
-    `Race / Ethnicity`,
-    `Biological Sex`,
+    State, 
+    County, 
+    City, 
+    `Race / Ethnicity`, 
+    `Biological Sex`, 
     age_group,
-    fill = list(`Number of Missing People` = 0)
-  ) %>%
-  filter(`Number of Missing People` > 0) %>%   # NOTE: column name, not string
-  arrange(State, County, City)
+    fill = list("Number of Missing People" = 0)) %>%
+  arrange(State, County, City) %>%
+  filter("Number of Missing People" > 0)  
 
 View(missing_table_2)
 
 
-
-
 # 3) Sort by gender, race/ethnicity and age group by date of last contact, drop missing counts
-missing_table_3 <- MissingPersons %>%
+missing_table_3 <- missing %>%
   mutate(
     age_num = parse_number(`Missing Age`),
     age_num = if_else(is.na(age_num), 0, age_num),
@@ -137,31 +131,25 @@ missing_table_3 <- MissingPersons %>%
     )
   ) %>%
   count(
-    `DLC`,
+    DLC,
     `Race / Ethnicity`,
     `Biological Sex`,
     age_group,
     name = "Number of Missing People"
   ) %>%
   complete(
-    `DLC`,
+    DLC,
     `Race / Ethnicity`,
     `Biological Sex`,
     age_group,
     fill = list(`Number of Missing People` = 0)
   ) %>%
-  arrange(DLC, 
-          `Race / Ethnicity`,
-          `Biological Sex`,
-          age_group) %>%
   arrange(
-    `DLC`,
+    DLC, 
     `Race / Ethnicity`,
     `Biological Sex`,
     age_group
-
   ) %>%
   filter(`Number of Missing People` > 0)
 
 View(missing_table_3)
-
