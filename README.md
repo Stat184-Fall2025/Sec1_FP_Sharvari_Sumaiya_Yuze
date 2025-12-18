@@ -55,12 +55,12 @@ Future extensions may include:
 
 ## Repo Structure
 
-├── MissingPersons.csv          # Raw NamUS data used in the analysis
-├── MissingPersonsAnalysis.qmd  # Main Quarto document (PDF output)
-├── figures/                    # Exported figures (PNG/JPG) used in README/report
-├── references.bib              # Bibliography file for citations
-├── apa7.csl                    # Citation style file
-├── README.md                   # Project overview (this file)
+├── MissingPersons.csv          # Raw NamUS data used in the analysis <br>
+├── MissingPersonsAnalysis.qmd  # Main Quarto document (PDF output) <br>
+├── figures/                    # Exported figures (PNG/JPG) used in README/report <br>
+├── references.bib              # Bibliography file for citations <br>
+├── apa7.csl                    # Citation style file <br> 
+├── README.md                   # Project overview (this file) <br>
 
 ## Authors
 
