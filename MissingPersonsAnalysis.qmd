@@ -13,33 +13,12 @@ format:
 execute:
   echo: false
   warning: false
-  
+
 bibliography: references.bib
 csl: apa7.csl
       
 editor: visual
 ---
-
-```{r}
-# Setup Code
-library(tidyverse)
-MissingPersons <- read_csv("MissingPersons.csv")
-
-eda_df <- MissingPersons |>
-  # keep only PA + OH
-  filter(State %in% c("PA", "OH")) |>
-  # create numeric age + age groups
-  mutate(
-    age_num = readr::parse_number(`Missing Age`),
-    age_num = if_else(is.na(age_num), 0, age_num),
-    age_group = case_when(
-      age_num < 20 ~ "below 20",
-      age_num < 40 ~ "between 20-40",
-      age_num < 60 ~ "between 40-60",
-      TRUE         ~ "above 60"
-    )
-  )
-```
 
 # Introduction
 
@@ -68,6 +47,8 @@ To obtain the data-set, we needed to register for an account for NamUS. Afterwar
 In our repository, the data will be found under "MissingPersons.csv". The dataframe we worked with in data wrangling and visualization will follow a similar naming scheme "missingPersons".
 
 ```{r}
+library(tidyverse)
+
 missingPersons <- read.csv("MissingPersons.csv")
 
 # preview the data frame
@@ -116,11 +97,11 @@ Interpretation and presentation of results consider contextual factors like popu
 
 # Data and Attributes
 
-The analysis uses nearly all attributes of the data, with the except of case number (which is simply just used as an identifier), and date modified (where we could not find a useful interpretation related to our research question),
+The analysis uses nearly all attributes of the data, with the except of case number (which is simply just used as an identifier), and date modified (where we could not find a useful interruptation related to our research question),
 
 ## Original attributes (from dataset):
 
-Geographic attributes:
+Geogrpahic attributes:
 
 -   state
 
@@ -138,7 +119,7 @@ Demographic attributes:
 
 Time-span attributes:
 
--   DLC (Date of Last Contact)
+-   DLC
 
 ## Derived attributes
 
@@ -154,20 +135,207 @@ From the original listed attributes of the database, there were a couple of attr
 
 # Data Wrangling
 
+simple summary tables.
+
+Here are different ways our data is wrangled:
+
+-   Each case is defined by a combination of sex, race, and age group
+
+-   Each case is organized by state, county and city
+
+-   Each case is associated with a specific date of last contact
+
+```{r}
+#| fig-lab: simple-summary-tbl
+
+#library(tidyverse)
+
+missingPersons <- read_csv("MissingPersons.csv")
+
+#Simple summary tables 
+
+# 1) Sort by sex
+gender_table <- missingPersons %>%
+  count(`Biological Sex`, name = "Number of Missing People")
+
+head(gender_table)
+
+
+# 2) Sort by race/ethnicity
+race_table <- missingPersons %>%
+  count(`Race / Ethnicity`, name = "Number of Missing People")
+
+head(race_table)
+
+
+# 3) Sort by age group
+age_table <- missingPersons %>%
+  mutate(
+    age_num = parse_number(`Missing Age`),
+    age_num = if_else(is.na(age_num), 0, age_num),
+    age_group = case_when(
+      age_num < 20 ~ "below 20",
+      age_num < 40 ~ "between 20-40",
+      age_num < 60 ~ "between 40-60",
+      TRUE         ~ "above 60"
+    )
+  ) %>%
+  count(age_group, name = "Number of Missing People")
+
+head(age_table)
+
+
+# 4) Sort by location 
+location_table <- missingPersons %>%
+  count(State, County, City, name = "Number of Missing People") %>%
+  arrange(State, County, City)
+
+head(location_table)
+
+
+# 5) Sort by date of last contact
+date_table <- missingPersons %>%
+  count(DLC, name = "Number of Missing People") %>%
+  arrange(DLC)
+
+head(date_table)
+```
+
+Complex summary tables.
+
+```{r}
+#| tbl-lab: complex-summary-tbl
+
+# Complex summary tables 
+
+# 1) Sort by gender, race/ethnicity and age group
+missing_table_1 <- missingPersons %>%
+  mutate(
+    age_num = readr::parse_number(`Missing Age`),
+    age_num = if_else(is.na(age_num), 0, age_num),
+    age_group = case_when(
+      age_num < 20 ~ "below 20",
+      age_num < 40 ~ "between 20-40",
+      age_num < 60 ~ "between 40-60",
+      TRUE         ~ "above 60"
+    )
+  ) %>%
+  count(
+    `Race / Ethnicity`, 
+    `Biological Sex`, 
+    age_group, 
+    name = "Number of Missing People") %>%
+  complete(
+    `Race / Ethnicity`,
+    `Biological Sex`,
+    age_group,
+    fill = list("Number of Missing People" = 0)
+  )
+
+head(missing_table_1)
+
+
+# 2) Sort by gender, race/ethnicity and age group by location, drop missing counts
+missing_table_2 <- missingPersons %>%
+  mutate(
+    age_num = parse_number(`Missing Age`),
+    age_num = if_else(is.na(age_num), 0, age_num),
+    age_group = case_when(
+      age_num < 20 ~ "below 20",
+      age_num < 40 ~ "between 20-40",
+      age_num < 60 ~ "between 40-60",
+      TRUE         ~ "above 60"
+    )
+  ) %>%
+  count(
+    State, 
+    County, 
+    City, 
+    `Race / Ethnicity`, 
+    `Biological Sex`, 
+    age_group, name = "Number of Missing People") %>%
+  complete(
+    State, 
+    County, 
+    City, 
+    `Race / Ethnicity`, 
+    `Biological Sex`, 
+    age_group,
+    fill = list("Number of Missing People" = 0)) %>%
+  arrange(State, County, City) %>%
+  filter("Number of Missing People" > 0)  
+
+head(missing_table_2)
+
+
+# 3) Sort by gender, race/ethnicity and age group by date of last contact, drop missing counts
+missing_table_3 <- missingPersons %>%
+  mutate(
+    age_num = parse_number(`Missing Age`),
+    age_num = if_else(is.na(age_num), 0, age_num),
+    age_group = case_when(
+      age_num < 20 ~ "below 20",
+      age_num < 40 ~ "between 20-40",
+      age_num < 60 ~ "between 40-60",
+      TRUE         ~ "above 60"
+    )
+  ) %>%
+  count(
+    DLC,
+    `Race / Ethnicity`,
+    `Biological Sex`,
+    age_group,
+    name = "Number of Missing People"
+  ) %>%
+  complete(
+    DLC,
+    `Race / Ethnicity`,
+    `Biological Sex`,
+    age_group,
+    fill = list(`Number of Missing People` = 0)
+  ) %>%
+  arrange(
+    DLC, 
+    `Race / Ethnicity`,
+    `Biological Sex`,
+    age_group
+  ) %>%
+  filter(`Number of Missing People` > 0)
+
+head(missing_table_3)
+```
+
 # Geographic Breakdown
 
 # Demographic Breakdown
 
-This section examines whether missing-person cases in Pennsylvania and Ohio show demographic concentration by biological sex, race/ethnicity, and age group. These summaries are descriptive and are intended to identify patterns rather than imply causality.
-
-### Biological Sex (PA vs OH)
-
-Figure
-
 ```{r}
+# set up
 library(tidyverse)
 
-### age distribution by state (PA vs OH)
+MissingPersons <- read_csv("MissingPersons.csv")
+
+eda_df <- MissingPersons |>
+  # keep only PA + OH
+  filter(State %in% c("PA", "OH")) |>
+  # create numeric age + age groups
+  mutate(
+    age_num = readr::parse_number(`Missing Age`),
+    age_num = if_else(is.na(age_num), 0, age_num),
+    age_group = case_when(
+      age_num < 20 ~ "below 20",
+      age_num < 40 ~ "between 20-40",
+      age_num < 60 ~ "between 40-60",
+      TRUE         ~ "above 60"
+    )
+  )
+```
+
+### Age:
+
+This visualization compares missing-person counts across age groups for Pennsylvania and Ohio. In both states, the highest number of reported cases falls within the 20–40 age group, followed by individuals aged 40–60. Fewer cases are observed among individuals below 20 and above 60. While Pennsylvania generally reports slightly higher counts than Ohio across all age groups, the overall age distribution pattern is highly consistent between the two states, suggesting similar demographic trends rather than state-specific differences.
+
+```{r}
 age_state <- eda_df |>
   count(State, age_group, name = "Number of Missing People")
 
@@ -183,13 +351,41 @@ ggplot(
     x = "Age Group",
     y = "Number of Missing People"
   )
-
 ```
 
-### Race/ Ethnicity
+### Biological Sex:
+
+This visualization shows missing-person counts by biological sex for Pennsylvania and Ohio. Both states exhibit a relatively balanced distribution between males and females, with only modest differences in total counts. Pennsylvania reports slightly higher numbers overall, but the proportional relationship between biological sex categories remains similar across states. This indicates that missing-person reports are not strongly skewed toward a single biological sex in either Pennsylvania or Ohio.
 
 ```{r}
+sex_state <- eda_df |>
+  count(State, `Biological Sex`, name = "Number of Missing People")
+
+ggplot(
+  data = sex_state,
+  aes(x = `Biological Sex`,
+      y = `Number of Missing People`,
+      fill = State)
+) +
+  geom_bar(stat = "identity", position = "dodge") +
+  labs(
+    title = "Biological Sex Distribution (PA vs OH)",
+    x = "Biological Sex",
+    y = "Number of Missing People"
+  )
+```
+
+### Race/Ethnicity:
+
+This lollipop plot displays missing-person counts across race and ethnicity categories for Pennsylvania and Ohio. In both states, White / Caucasian individuals represent the largest share of reported missing-person cases, followed by Black / African American individuals. All other racial and ethnic groups appear at substantially lower counts. The similarity in distributions between the two states suggests that these patterns may reflect broader population composition and reporting practices rather than unique state-level effects.
+
+```{r}
+### race distribution by state - lollipop plot
 library(ggplot2)
+
+race_state <- eda_df %>%
+  filter(State %in% c("PA", "OH")) %>%
+  count(State, `Race / Ethnicity`, name = "Number of Missing People")
 
 ggplot(race_state,
        aes(x = reorder(`Race / Ethnicity`, `Number of Missing People`),
@@ -208,25 +404,7 @@ ggplot(race_state,
   )
 ```
 
-### Age Group (PA vs OH)
-
-```{r}
-age_state <- eda_df |>
-  count(State, age_group, name = "Number of Missing People")
-
-ggplot(
-  data = age_state,
-  aes(x = age_group,
-      y = `Number of Missing People`,
-      fill = State)
-) +
-  geom_bar(stat = "identity", position = "dodge") +
-  labs(
-    title = "Age Distribution of Missing People (PA vs OH)",
-    x = "Age Group",
-    y = "Number of Missing People"
-  )
-```
+Across all combinations of race/ethnicity, biological sex, and age group, the demographic group with the **highest number of reported missing-person cases** is **White / Caucasian females between the ages of 20 and 40**, with a total of **160 cases**. This result aligns with the broader age and race patterns observed in the demographic visualizations and highlights young adult White/Caucasian females as the single most frequently reported demographic group in the dataset.
 
 # Time-span Breakdown
 
@@ -337,10 +515,10 @@ ggplot() +
       linetype = State
     )
   ) +
-  scale_color_discrete(palette = c("steelblue", "darkred")) +
+  scale_color_manual(values = c("PA" = "steelblue", "OH" = "darkred")) +
   labs(
     title = "Missing People Per Year In PA and OH",
-    x = "Years (1938-2025)",
+    x = "Years (1928-2025)",
     y = "Number of Missing People Cases"
   )
 ```
@@ -351,7 +529,6 @@ As a more focused indication of the similar growth and high variable of the time
 
 ```{r}
 #| fig-lab: time-series-difference
-#| fig-cap: "The average difference of PA missing count minus OH missing count is slightly positive/just above 1. Meaning that on average, PA has a slightly higher missing count during this timeframe."
 
 # Create df with difference in missing persons (PA - OH)----
 difference_time_series <- time_sensitive_missing |>
@@ -379,7 +556,4 @@ ggplot(
   )
 ```
 
-# Code Appendix
-
-```{)}
-```
+The average difference of PA missing count minus OH missing count is slightly positive/just above 1. Meaning that on average, PA has a slightly higher missing count during this time frame.
